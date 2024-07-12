@@ -37,6 +37,8 @@ html, body {
     overflow-x: hidden;
     transition: 0.5s ease-in-out;
     background-color: rgb(76, 17, 131);
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory; /* Travar a rolagem verticalmente */
 }
 section {
     width: 100vw;
@@ -44,6 +46,7 @@ section {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    scroll-snap-align: start; /* Travar no início de cada seção */
 }
 h1{
     display: inline-block;
