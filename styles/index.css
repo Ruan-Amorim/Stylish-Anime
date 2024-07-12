@@ -66,10 +66,12 @@ h2,h3,h4,h5,h6{
 li {
     list-style: none;
     font-size: 1.8em;
+    overflow: hidden;
 }
 /* BLOCO 1 */
 
 #bloco1 {
+    position: relative;
     width: 90vw;
     background-image: url("https://images7.alphacoders.com/129/1296046.jpg");
     border-radius: 0 0 100% 0;
@@ -79,7 +81,7 @@ li {
 }
 
 #ulContainerPlayerAnimes {
-    position: relative;
+    position: absolute;
     display: flex;
     width: max-content;
     height: 50%;
@@ -88,13 +90,15 @@ li {
     top: 50%;
     transform: translateY(-50%);
     transition: all 0.5s ease-in-out;
+     top: 70%;
 }
 #ulContainerPlayerAnimes > li{
     position: relative;
-    width: 550px;
-    height: 100%;
-    margin: 0 20px;
+    width: 510px;
+    height: 95%;
+    margin: 0 23px;
     padding: 10px;
+    bottom: 0;
     text-align: center;
     align-items: center;
     background-color: rgb(162, 17, 206);
@@ -105,6 +109,7 @@ li {
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.829);
     overflow-y: scroll;
     animation: scaleAnimation 0.3s ease-in-out;
+    transform: translateY(5%);
 }
 #ulContainerPlayerAnimes > li > h2 {
     margin: 30px;

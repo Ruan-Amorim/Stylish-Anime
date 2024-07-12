@@ -1,7 +1,13 @@
 
-@media screen and (min-width: 300px) and (max-width: 500px) {
+/* PARA CELULARES */
+
+@media screen and (min-width: 300px) and (max-width: 550px) {
     h1,h2,h3,h4,h5,h6 {
-        font-size: 2em;
+        font-size: 1.5em;
+    }
+    #bloco1 {
+        position: relative;
+        border-radius: 0 0 100% 0;
     }
     #ulContainerPlayerAnimes > li > h2 {
         font-size: 1em;
@@ -9,6 +15,70 @@
     #ulContainerPlayerAnimes{
         position: absolute;
         margin-left: 0;
+        top: 70%;
+    }
+    #ulContainerPlayerAnimes > li {
+        width: 280px;
+        height: 85%;
+        margin: 30px;
+        overflow-y: scroll;
+        transform: translateX(45px) translateY(5%);
+    }
+    #ulContainerPlayerAnimes > li > h2 {
+        margin-top: 20px;
+    }
+    #ulContainerPlayerAnimes > li > p {
+        font-size: 0.6em;
+    }
+}
+
+/* PARA NOTEBOOK */
+
+@media screen and (min-width: 1360px) and (max-width: 1800px){
+
+    h1,h2,h3,h4,h5,h6 {
+        font-size: 2em;
+    }
+    #bloco1 {
+        position: relative;
+    }
+    #ulContainerPlayerAnimes > li > h2 {
+        font-size: 1em;
+    }
+    #ulContainerPlayerAnimes{
+        position: absolute;
+        margin-left: 30%;
+        top: 65%;
+        scale: 0.9;
+    }
+    #ulContainerPlayerAnimes > li {
+        width: 280px;
+        height: 95%;
+        margin: 15px;
+        overflow-y: scroll;
+    }
+    #ulContainerPlayerAnimes > li > h2 {
+        margin-top: 20px;
+    }
+    #ulContainerPlayerAnimes > li > p {
+        font-size: 0.6em;
+    }
+}
+
+@media screen and (min-width: 1801px) and (max-width: 2000px){
+
+    h1,h2,h3,h4,h5,h6 {
+        font-size: 2em;
+    }
+    #bloco1 {
+        position: relative;
+    }
+    #ulContainerPlayerAnimes > li > h2 {
+        font-size: 1em;
+    }
+    #ulContainerPlayerAnimes{
+        position: absolute;
+        margin-left: 30%;
         top: 70%;
     }
     #ulContainerPlayerAnimes > li {
