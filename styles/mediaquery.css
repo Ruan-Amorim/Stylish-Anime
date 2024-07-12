@@ -1,0 +1,26 @@
+
+@media screen and (min-width: 300px) and (max-width: 500px) {
+    h1,h2,h3,h4,h5,h6 {
+        font-size: 2em;
+    }
+    #ulContainerPlayerAnimes > li > h2 {
+        font-size: 1em;
+    }
+    #ulContainerPlayerAnimes{
+        position: absolute;
+        margin-left: 0;
+        top: 70%;
+    }
+    #ulContainerPlayerAnimes > li {
+        width: 300px;
+        height: 90%;
+        margin: 30px;
+        overflow-y: scroll;
+    }
+    #ulContainerPlayerAnimes > li > h2 {
+        margin-top: 20px;
+    }
+    #ulContainerPlayerAnimes > li > p {
+        font-size: 0.6em;
+    }
+}
