@@ -1,8 +1,43 @@
 
 /* FONTS */
-
 @font-face {
-    font-family: 'Fonte01';
+    font-family: 'Milkita';
+    src: url("../midias/fonts/milkita_2/Milkita.otf"), format('otf');
+}
+@font-face {
+    font-family: 'Angkola';
+    src: url("../midias/fonts/angkola/Angkola.otf"), format('otf');
+}
+@font-face {
+    font-family: 'JoeMax';
+    src: url("../midias/fonts/joe-max-font/JoeMax-qV2x.otf"), format('otf');
+}
+@font-face {
+    font-family: 'Gang-of-three';
+    src: url("../midias/fonts/gang-of-three/go3v2.ttf"), format('ttf');
+}
+@font-face {
+    font-family: 'Otaku-rant';
+    src: url("../midias/fonts/otaku-rant-family/otaku-rant.regular.ttf"), format('ttf');
+}
+@font-face {
+    font-family: 'Saiyan-sans';
+    src: url("../midias/fonts/saiyan-sans/Saiyan-Sans.ttf"), format('ttf');
+}
+@font-face {
+    font-family: 'attack-on-courier';
+    src: url("../midias/fonts/attack-on-courier-font/AttackOnCourier-5nJz.ttf"), format('ttf');
+}
+@font-face {
+    font-family: 'Shingeki';
+    src: url("../midias/fonts/attack-on-titan/attack-on-titan/GothTitan-0W5md.ttf"), format('ttf');
+}
+@font-face {
+    font-family: 'Jujutsu';
+    src: url("../midias/fonts/jujutsu-kaisen/jujutsu-kaisen/Jujutsu Kaisen.ttf"), format('ttf');
+}
+@font-face {
+    font-family: 'Naruto';
     src: url("../midias/fonts/ninja-naruto-font/NinjaNaruto-YOn4.ttf"), format('ttf');
     
 }
@@ -50,7 +85,7 @@ section {
 }
 h1{
     display: inline-block;
-    font-family: 'Fonte01','Times New Roman', Times, serif;
+    font-family: 'Naruto','Times New Roman', Times, serif;
     padding: 20px;
     color: whitesmoke;
     font-size: 4em;
