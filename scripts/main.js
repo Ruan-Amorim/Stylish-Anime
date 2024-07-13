@@ -1,5 +1,5 @@
 
-import ArrayPreviewAnime from "./dados.js";
+import {ArrayPreviewAnime} from "./dados.js";
 
 
 var ulContainerPlayerAnimes = window.document.getElementById("ulContainerPlayerAnimes");

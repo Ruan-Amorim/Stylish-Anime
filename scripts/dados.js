@@ -1,6 +1,6 @@
 
 
-const ArrayPreviewAnime = [
+export const ArrayPreviewAnime = [
     {
         "nome": "Bocchi The Rock",
         "sinopse": "A história acompanha Hitori Gotou, uma garota sem amigos que está aprendendo a tocar guitarra para se tornar uma estrela do rock, mas é extremamente tímida. Por mais que seu sonho parecesse inalcançável, ela acaba por conhecer Nijika Ijichi, uma baterista que está a procura de uma guitarrista para sua banda, criando assim a oportunidade para Hitori entrar no mundo da música.",
@@ -39,5 +39,12 @@ const ArrayPreviewAnime = [
     },
 ];
 
-export default ArrayPreviewAnime;
+export const StylesAnimes = {
+    "Bocchi The Rock": ["midias/image/Bocchi-the-rock/Hitori-image01.png","midias/image/Bocchi-the-rock/Hitori-image02.png","midias/image/Bocchi-the-rock/Hitori-poster.jpeg","midias/image/Bocchi-the-rock/Hitori-icon01.jpeg"],
+    "Oshi no Ko": {},
+    "Youkoso": {},
+    "Isekai de Cheat Skill": {},
+    "Konosuba": {},
+    "Kenka Dokugaku": {},
+};
 
