@@ -87,14 +87,14 @@ function openPersonagens(anime) {
             texto1.innerHTML = StylesAnimes[anime].texto1;
             texto2.innerHTML = StylesAnimes[anime].texto2;
             texto3.innerHTML = StylesAnimes[anime].texto3;
-
-            container.appendChild(imageIcon);
+            
             container.appendChild(image01);
             container.appendChild(image02);
             container.appendChild(poster);
             container.appendChild(texto1);
             container.appendChild(texto2);
             container.appendChild(texto3);
+            container.appendChild(imageIcon);
             li.appendChild(tituloTextBox);
             li.appendChild(textoTextBox);
             textBox.appendChild(li);
