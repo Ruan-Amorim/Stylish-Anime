@@ -40,11 +40,22 @@ export const ArrayPreviewAnime = [
 ];
 
 export const StylesAnimes = {
-    "Bocchi The Rock": ["midias/image/Bocchi-the-rock/Hitori-image01.png","midias/image/Bocchi-the-rock/Hitori-image02.png","midias/image/Bocchi-the-rock/Hitori-poster.jpeg","midias/image/Bocchi-the-rock/Hitori-icon01.jpeg"],
+    "Bocchi The Rock": {
+        "texto1": "Bocchi",
+        "texto2": "H<br>I<br>T<br>O<br>R<br>I",
+        "texto3": "Gotoh Hitori",
+        "tituloTextBox": "Gotou Hitori - Bocchi the Rock!", 
+        "textoTextBox": 'Gotou Hitori, conhecida como "Bocchi," é a protagonista de "Bocchi the Rock!" Criada por Aki Hamaji, Bocchi é uma adolescente introvertida e tímida com uma paixão profunda pela guitarra. Sua timidez extrema a leva a se isolar, encontrando consolo na música.<br>Determinada a superar sua ansiedade social, Bocchi pratica guitarra diligentemente e posta covers anonimamente no YouTube. Sua vida muda quando é convidada por Nijika Ijichi para se juntar à banda Kessoku Band. Apesar de suas inseguranças, ela aceita e encontra apoio em seus novos amigos, Ryo Yamada e Kita Ikuyo.<br>Na banda, Bocchi enfrenta desafios pessoais e cresce tanto musicalmente quanto como pessoa. Sua jornada é uma inspiradora história de coragem, amizade e o poder transformador da música.',
+        "image1": "midias/image/Bocchi-the-rock/Hitori-image01.png",
+        "image2": "midias/image/Bocchi-the-rock/Hitori-image02.png",
+        "poster": "midias/image/Bocchi-the-rock/Hitori-poster.jpeg",
+        "imageIcon": "midias/image/Bocchi-the-rock/Hitori-icon01.jpeg",
+        "background-color": "pink",
+        "colors": ["#FF2291","#D73E8C","#D22C7A"],
+    },
     "Oshi no Ko": {},
     "Youkoso": {},
     "Isekai de Cheat Skill": {},
     "Konosuba": {},
     "Kenka Dokugaku": {},
 };
-
