@@ -32,6 +32,12 @@ export const ArrayPreviewAnime = [
         "imagemCL": "https://wallpapercave.com/wp/wp6289793.jpg",
     },
     {
+        "nome": "Kimetsu No Yaiba",
+        "sinopse": "Tanjiro, um bondoso jovem que ganha a vida vendendo carvão descobre que sua família foi massacrada por um demônio. E, para piorar, Nezuko, sua irmã mais nova e única sobrevivente, também acabou transformada em um demônio.",
+        "imagemPC": "https://files.passeidireto.com/c4fa36ac-cce4-4949-a92d-8c625258b6d5/c4fa36ac-cce4-4949-a92d-8c625258b6d5.jpeg",
+        "imagemCL": "https://wallpaper.forfun.com/fetch/31/3192bf5ae48e093fd9823082964a84d7.jpeg",
+    },
+    {
         "nome": "Kenka Dokugaku",
         "sinopse": "O estudante magrelo do ensino médio, Hobin Yu, é o último cara que você esperaria estrelar em um canal do NewTube, que gira em torno de lutas. Depois de seguir alguns conselhos de um misterioso canal no NewTube, Hobin logo está nocauteando caras mais fortes do que ele e arrecadando mais dinheiro do que jamais poderia ter sonhado.",
         "imagemPC": "https://pbs.twimg.com/media/GK45V32W0AEY29w.jpg",
