@@ -34,7 +34,7 @@ export const ArrayPreviewAnime = [
     {
         "nome": "Kimetsu No Yaiba",
         "sinopse": "Tanjiro, um bondoso jovem que ganha a vida vendendo carvão descobre que sua família foi massacrada por um demônio. E, para piorar, Nezuko, sua irmã mais nova e única sobrevivente, também acabou transformada em um demônio.",
-        "imagemPC": "https://wallpapercave.com/wp/wp12511517.jpg",
+        "imagemPC": "https://moewalls.com/wp-content/uploads/2022/02/rengoku-and-tanjiro-fire-katana-kimetsu-no-yaiba-thumb.jpg",
         "imagemCL": "https://wallpaper.forfun.com/fetch/31/3192bf5ae48e093fd9823082964a84d7.jpeg",
     },
     {
