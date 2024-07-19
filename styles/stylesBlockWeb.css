@@ -158,3 +158,61 @@
                 10px 10px 0 #FF2291;
     z-index: 4;
 }
+
+/* BLOCO 03 */
+
+#blocoInfoAnime {
+    position: relative;
+    display: flex;
+    overflow: hidden;
+}
+
+#grade01 {
+    position: absolute;
+    width: 22%;
+    height: 90%;
+    margin: 0 5% 0 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    align-items: center;
+}
+#imgCapaGride01 {
+    position: relative;
+    width: 80%;
+    height: 60%;
+    border-radius: 10px;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/691/648/922/anime-anime-girls-picture-in-picture-youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-horikita-suzune-hd-wallpaper-preview.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 20px black;
+}
+#nomeImg{
+    position: absolute;
+    width: 100%;
+    padding: 20% 0 10% 0;
+    bottom: 0;
+    font-size: 5em;
+    color: whitesmoke;
+    text-align: center;
+    vertical-align: center;
+    background: linear-gradient(to top, rgba(65,26,89, 0.9), rgba(107,43,146, 0.8), rgba(128,51,174, 0.7), rgba(107,43,146, 0) );
+    border-radius: 0 0 10px 10px;
+}
+#grade01Texto{
+    position: relative;
+    width: 80%;
+    padding: 20px;
+    background: #5702B0;
+    border-radius: 10px;
+    margin: 40px 0 0 0;
+    box-shadow: 0 0 20px black;
+}
+#grade01Texto > li {
+    margin: 2.5px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+}
