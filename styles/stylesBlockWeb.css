@@ -210,7 +210,7 @@
     color: whitesmoke;
     text-align: center;
     vertical-align: center;
-    background: linear-gradient(to top, rgba(65,26,89, 0.9), rgba(107,43,146, 0.8), rgba(128,51,174, 0.7), rgba(107,43,146, 0) );
+    background: linear-gradient(to bottom, rgba(13, 5, 43, 0) , rgba(53, 32, 131, 0.7), rgba(82, 55, 180, 0.8) , rgba(110, 77, 229, 0.9));
     border-radius: 0 0 14px 14px;
 }
 .grade01Texto{
@@ -294,7 +294,6 @@
     width: 55%;
     height: 99%;
     margin-left: 44%;
-    z-index: 1000;
 }
 .blocosDoAside {
     width: 95%;
@@ -338,7 +337,7 @@
     text-decoration: none;
     text-align: center;
     background: whitesmoke;
-    border: 5px outset #583AC5;
+    border: 3px outset #583AC5;
     border-radius: 20px;
 }
 #blocosDoAside02 > a:Hover {
@@ -354,4 +353,48 @@
     text-align: center;
     vertical: center;
     color: #583AC5;
+}
+
+#caixaDoProtagonista {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 68%;
+    text-align: center;
+    align-items: center;
+}
+#caixaDoProtagonista > div {
+    display: inline-block;
+    width: 45%;
+    height: 80%;
+    top: 50%:
+    transform: translateY(-50%);
+    text-align: center;
+}
+#imageProtagonista {
+    position: relative;
+    margin: 0 0 0 5%;
+    background-image: url("https://wallpaper.forfun.com/fetch/8a/8a32b6a93ee5f980398ca1c89c5abdc5.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px 0 0 20px ;
+}
+#textoProtagonista {
+    margin: 0;
+    border-radius: 0 20px 20px 0;
+    background: #583AC5;
+}
+#nomeProtagonista {
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    padding-top: 20px;
+    bottom: 0;
+    color: #DFBFFB;
+    text-align: center;
+    font-size: 5em;
+    font-family: 'Angkola','Times New Roman', Times, serif;
+    background: linear-gradient(to bottom, rgba(13, 5, 43, 0) , rgba(53, 32, 131, 0.7), rgba(82, 55, 180, 0.8) , rgba(110, 77, 229, 0.9));
+
 }
