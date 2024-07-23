@@ -245,11 +245,12 @@
 
 #caixaPrincialTexto {
     position: relative;
+    display: flex;
     width: 100%;
     height: 100%;
-    padding: 10px;
+    padding: 15px;
     background: #D9D9D9;
-    box-shadow: 0 0 5px #B9B9B9;
+    box-shadow: 0 0 10px #B9B9B9;
     border-radius: 10px;
 }
 #blocoSinopse {
@@ -262,6 +263,7 @@
     background: #CAC6C6;
     border-radius: 10px;
 }
+
 #blocoSinopse > h2 {
     width: 100%;
     margin: 15px 0 5px 15px;
@@ -285,4 +287,71 @@
     font-size: 1.8em;
     text-align: left;
     font-family: 'Times New Roman', Times, serif;
+}
+
+#blocoAside {
+    position: absolute;
+    width: 55%;
+    height: 99%;
+    margin-left: 44%;
+    z-index: 1000;
+}
+.blocosDoAside {
+    width: 95%;
+    height: 47%;
+    margin: 10px;
+    background: #583AC5;
+    border-radius: 15px;
+}
+#blocosDoAside01 > h3 {
+    margin-top: 5.5%;
+}
+#textScore {
+    font-size: 5em;
+    font-family: 'Gang-of-three', 'Times New Roman', Times, serif;
+    color: whitesmoke;
+}
+#textUsers {
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+}
+#blocosDoAside02 {
+    position: relative;
+    background: #CAC6C6;
+    align-items: center;
+    text-align: center;
+}
+#blocosDoAside02 > h3 {
+    width: 100%;
+    margin: 2%;
+    padding: 5px;
+    color: #583AC5;
+    background: whitesmoke;
+}
+#blocosDoAside02 > a {
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    height: 50%;
+    font-size: 2.2em;
+    text-decoration: none;
+    text-align: center;
+    background: whitesmoke;
+    border: 5px outset #583AC5;
+    border-radius: 20px;
+}
+#blocosDoAside02 > a:Hover {
+    scale: 1.1;
+    transition: 0.3s;
+}
+
+#blocosDoAside02 > a > p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    vertical: center;
+    color: #583AC5;
 }
