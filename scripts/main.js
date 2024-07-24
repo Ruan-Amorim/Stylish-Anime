@@ -1,5 +1,5 @@
 
-import {ArrayPreviewAnime, StylesAnimes} from "./dados.js";
+import {ArrayPreviewAnime, ArrayInfoAnimes} from "./dados.js";
 
 
 var ulContainerPlayerAnimes = window.document.getElementById("ulContainerPlayerAnimes");
@@ -33,7 +33,7 @@ function geradorPreviewAnime() {
             <h2>${ArrayPreviewAnime[x].nome}</h2>
             <p>${ArrayPreviewAnime[x].sinopse}</p>`;
         li.style.backgroundImage = `url("${encodeURI(ArrayPreviewAnime[x].imagemPC)}")`;
-        li.setAttribute('onclick', `AnimeClick(${x})`); 
+        li.setAttribute('onclick', `AnimeClick("${ArrayPreviewAnime[x].nome}")`); 
     
         ulContainerPlayerAnimes.appendChild(li);
     }
@@ -47,6 +47,7 @@ window.AnimeClick = function AnimeClick(Anime){
     ArrayPreviewAnime.push(firstElement);
 
     loading();
+    updateInfoAnime(Anime);
 }
 
 function loading() {
@@ -55,8 +56,24 @@ function loading() {
     bloco1.style.backgroundImage = `url("${encodeURI(ArrayPreviewAnime[0].imagemPC)}")`;
 }
 
-function updateInfoAnime() {
+window.updateInfoAnime = function updateInfoAnime(anime) {
+    imagem_capa_infoAnimes.style.backgroundImage = `url("${ArrayInfoAnimes[anime].image_capa}")`;
+    nome_imagem_capa_infoAnimes.innerText = ArrayInfoAnimes[anime].nome_capa;
+    nome_anime_infoAnimes.innerText = ArrayInfoAnimes[anime].nome_anime;
+    estreou_infoAnimes.innerText = ArrayInfoAnimes[anime].estrou;
+    genero_infoAnimes.innerText = ArrayInfoAnimes[anime].genero;
+    fonte_infoAnimes.innerText = ArrayInfoAnimes[anime].fonte;
+    produtores_infoAnimes.innerText = ArrayInfoAnimes[anime].produtores;
+    temas_infoAnimes.innerText = ArrayInfoAnimes[anime].temas;
+    estudios_infoAnimes.innerText = ArrayInfoAnimes[anime].estudios;
 
+    titulo_caixa_principal_texto_infoAnimes.innerText = ArrayInfoAnimes[anime].titulo;
+    texto_sinopse_texto_infoAnimes.innerText = ArrayInfoAnimes[anime].sinopse;
+    texto_score_infoAnimes.innerText = ArrayInfoAnimes[anime].score;
+    texto_users_infoAnimes.innerText = ArrayInfoAnimes[anime].users;
+    image_protagonista_infoAnimes.style.backgroundImage = `url("${ArrayInfoAnimes[anime].image_protagonista}")`;
+    nome_protagonista_infoAnimes.innerText = ArrayInfoAnimes[anime].nome_protagonista;
+    texto_do_protagonista_infoAnimes.innerText = ArrayInfoAnimes[anime].texto_protagonista;
 }
 
 geradorPreviewAnime();
