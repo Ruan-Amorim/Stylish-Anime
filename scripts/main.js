@@ -37,9 +37,11 @@ function geradorPreviewAnime() {
     
         ulContainerPlayerAnimes.appendChild(li);
     }
+    updateInfoAnime(ArrayPreviewAnime[0].nome);
 };
 
 window.AnimeClick = function AnimeClick(Anime){
+    updateInfoAnime(Anime);
     // Remove o primeiro elemento e o armazena em uma variável
     let firstElement = ArrayPreviewAnime.shift();
 
@@ -47,7 +49,6 @@ window.AnimeClick = function AnimeClick(Anime){
     ArrayPreviewAnime.push(firstElement);
 
     loading();
-    updateInfoAnime(Anime);
 }
 
 function loading() {
@@ -68,12 +69,12 @@ window.updateInfoAnime = function updateInfoAnime(anime) {
     estudios_infoAnimes.innerText = ArrayInfoAnimes[anime].estudios;
 
     titulo_caixa_principal_texto_infoAnimes.innerText = ArrayInfoAnimes[anime].titulo;
-    texto_sinopse_texto_infoAnimes.innerText = ArrayInfoAnimes[anime].sinopse;
+    texto_sinopse_texto_infoAnimes.innerHTML = ArrayInfoAnimes[anime].sinopse;
     texto_score_infoAnimes.innerText = ArrayInfoAnimes[anime].score;
     texto_users_infoAnimes.innerText = ArrayInfoAnimes[anime].users;
     image_protagonista_infoAnimes.style.backgroundImage = `url("${ArrayInfoAnimes[anime].image_protagonista}")`;
     nome_protagonista_infoAnimes.innerText = ArrayInfoAnimes[anime].nome_protagonista;
-    texto_do_protagonista_infoAnimes.innerText = ArrayInfoAnimes[anime].texto_protagonista;
+    texto_do_protagonista_infoAnimes.innerHTML = ArrayInfoAnimes[anime].texto_protagonista;
 }
 
 geradorPreviewAnime();
