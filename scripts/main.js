@@ -37,11 +37,9 @@ function geradorPreviewAnime() {
     
         ulContainerPlayerAnimes.appendChild(li);
     }
-    updateInfoAnime(ArrayPreviewAnime[0].nome);
 };
 
 window.AnimeClick = function AnimeClick(Anime){
-    updateInfoAnime(Anime);
     // Remove o primeiro elemento e o armazena em uma variável
     let firstElement = ArrayPreviewAnime.shift();
 
@@ -49,6 +47,7 @@ window.AnimeClick = function AnimeClick(Anime){
     ArrayPreviewAnime.push(firstElement);
 
     loading();
+    updateInfoAnime(Anime);
 }
 
 function loading() {
@@ -78,3 +77,4 @@ window.updateInfoAnime = function updateInfoAnime(anime) {
 }
 
 geradorPreviewAnime();
+updateInfoAnime(ArrayPreviewAnime[0].nome);
