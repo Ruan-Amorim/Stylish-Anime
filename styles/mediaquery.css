@@ -5,6 +5,9 @@
     h1,h2,h3,h4,h5,h6 {
         font-size: 1.5em;
     }
+    section {
+        scroll-snap-align: none; /* Travar no início de cada seção */
+    }
     #bloco1 {
         position: relative;
         height: calc(100vh - 60px);
@@ -90,6 +93,223 @@
     }
     .textBox > li > .tituloTextBox {
         font-size: 0.6em;
+    }
+
+    /* SECTION INFORMAÇÃO DE ANIMES */
+    section#containerBlocoInfoAnime {
+        position: sticky;
+        width: 100vw;
+        height: 320vh;
+        margin: 20px auto;
+    }
+    #blocoInfoAnime {
+        position: static;
+        display: block;
+        width: 80%;
+        height: auto;
+        margin: 20px auto;
+        top: 0;
+        left: 0;
+        transform: translate(0,0);
+        overflow: visible;
+    }
+    #pesquisaAnime {
+        display: none;
+    }
+    #pesquisaAnimeCl {
+        display: block;
+    }
+    #grade01 {
+        position: static;
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        top: 0;
+        transform: translateY(0);
+        text-align: center;
+        align-items: center;
+    }
+    #imgCapaGride01 {
+        position: relative;
+        display: block;
+        width: 80%;
+        height: 100vw;
+        margin: 20px auto;
+    }
+    #nomeImg {
+        font-size: 2em;
+    }
+    .grade01Texto{
+        position: static;
+        width: 80%;
+        background: #D9D9D9;
+        margin: 10px auto;
+    }
+    .grade01Texto > li {
+        margin: 3px;
+        font-size: 1em;
+        color: black;
+    }
+    #grade02{
+        position: static;
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-top: 40px;
+        padding: 0;
+        top: auto;
+        right: auto;
+        left: auto;
+        bottom: auto;
+        transform: translate(0,0);
+        text-align: center;
+        align-items: center;
+    }
+    #caixaPrincialTexto {
+        position: static;
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: auto;
+        padding: 15px;
+        transform: translate(0,0);
+    }
+    #blocoSinopse {
+        position: static;
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: auto;
+        padding: 10px;
+        top: auto;
+        right: auto;
+        left: auto;
+        bottom: auto;
+        transform: translate(-10px,0);
+    }
+    #blocoSinopse > h2 {
+        width: 100%;
+        margin: auto;
+        padding: 5px;
+        font-size: 2em;
+    }
+    #sinopse > h3 {
+        margin: 0 auto 15px auto;
+        padding: 5px;
+        font-size: 1.2em;
+    }
+    #sinopse > p {
+        font-size: 1em;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    #blocoAside {
+        position: static;
+        display: block;
+        width: 90%;
+        height: auto;
+        margin: 10px auto;
+    }
+    .blocosDoAside {
+        display: block;
+        width: 95%;
+        height: 47%;
+        margin: 25px auto;
+        background: #583AC5;
+        border-radius: 15px;
+        padding: 10px 0;
+    }
+    #blocosDoAside01 > h3 {
+        font-size: 1.5em;
+        margin-top: auto;
+    }
+    #textScore {
+        font-size: 2em;
+        margin-bottom: 5px;
+    }
+    #textUsers {
+        font-size: 1.2em;
+    }
+    #blocosDoAside02 {
+        height: 180px;
+    }
+    #blocosDoAside02 > a {
+        position: relative;
+        display: inline-block;
+        width: 70%;
+        height: 70%;
+        margin: 5px;
+        font-size: 1.2em;
+        border: 1px outset #583AC5;
+    }
+    #blocosDoAside02 > a > p {
+        width: 95%;
+    }
+    #caixaDoProtagonista {
+        position: static;
+        display: inline-block;
+        width: 100%;
+        height: 650px;
+        padding: 17px; 
+        margin: 30px auto;
+        left: 0;
+        text-align: center;
+        align-items: center;
+        border-radius: 20px;
+    }
+    #caixaDoProtagonista > div {
+        display: inline-block;
+        width: 100%;
+        height: 50%;
+        margin: auto;
+        top: auto;
+        left: 0;
+        transform: translate(0,0);
+        text-align: center;
+    }
+    #imageProtagonista {
+        position: relative;
+        width: 100%;
+        height: 40%;
+        margin: auto;
+        float: top;
+        background-image: url("https://wallpaper.forfun.com/fetch/8a/8a32b6a93ee5f980398ca1c89c5abdc5.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 20px 20px 0 0 ;
+    }
+    #nomeProtagonista {
+        position: absolute;
+        width: 100%;
+        height: 30%;
+        padding-top: 20px;
+        bottom: 0;
+        color: #DFBFFB;
+        text-align: center;
+        font-size: 3.5em;
+        font-family: 'Angkola','Times New Roman', Times, serif;
+        background: linear-gradient(to bottom, rgba(13, 5, 43, 0) , rgba(53, 32, 131, 0.7), rgba(82, 55, 180, 0.8) , rgba(110, 77, 229, 0.9));
+        border-radius: 0;
+    }
+    #textoProtagonista {
+        height: 60%;
+        margin: auto;
+        border-radius: 0 0 20px 20px;
+        background: #583AC5;
+        transition: 0.1s;
+        background: whitesmoke;
+    }
+    #textoProtagonista > h3 {
+        color: whitesmoke;
+    }
+    #textoProtagonista > p {
+        margin: 5px 10px;
+        font-size: 1em;
+        color: black;
+        text-align: left;
+    }
+    #textoProtagonista:hover {
+        scale: 1;
     }
 }
 
