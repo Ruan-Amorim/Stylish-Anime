@@ -172,6 +172,7 @@
         height: auto;
         margin: auto;
         padding: 15px;
+        padding-bottom: 83vh;
         transform: translate(0,0);
     }
     #blocoSinopse {
@@ -255,6 +256,7 @@
         text-align: center;
         align-items: center;
         border-radius: 20px;
+        transform: translate(-3px,-87vh);
     }
     #caixaDoProtagonista > div {
         display: inline-block;
