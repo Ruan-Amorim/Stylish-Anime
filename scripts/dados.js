@@ -47,7 +47,7 @@ export const ArrayPreviewAnime = [
 
 export const ArrayInfoAnimes = {
     "Youkoso": {
-        "image_capa": "../midias/image/Youkoso/image_capa.jpg",
+        "image_capa": "midias/image/Youkoso/image_capa.jpg",
         "nome_capa": "Youkoso",
         "nome_anime": "Nome: Youkoso",
         "estrou": "Estreou: Verão de 2017",
@@ -65,7 +65,7 @@ export const ArrayInfoAnimes = {
         "texto_protagonista": 'Kiyotaka Ayanokouji é o enigmático protagonista de "Classroom of the Elite". Estudante do prestigioso Colégio Koudo Ikusei, ele esconde suas habilidades extraordinárias e inteligência sob uma fachada de aluno mediano. Treinado na secreta "Sala Branca", Ayanokouji é um estrategista brilhante e manipulador astuto. Sua personalidade calma e reservada esconde sua verdadeira natureza e um passado misterioso, revelado aos poucos à medida que ele protege e influencia seus colegas de classe.',
     },
     "Kimetsu No Yaiba": {
-        "image_capa": "../midias/image/Kimetsu no Yaiba/image_capa.jpeg",
+        "image_capa": "midias/image/Kimetsu no Yaiba/image_capa.jpeg",
         "nome_capa": "Kimetsu",
         "nome_anime": "Nome: Demons Slayer",
         "estrou": "Estreou: Primavera de 2019",
@@ -83,7 +83,7 @@ export const ArrayInfoAnimes = {
         "texto_protagonista": 'Tanjiro Kamado é o protagonista de "Demon Slayer". Criado nas montanhas, ele se torna um caçador de demônios após sua família ser massacrada, exceto sua irmã Nezuko, que vira um demônio. Determinado a curar Nezuko e vingar sua família, Tanjiro entra na organização de Caçadores de Demônios. Conhecido por sua bondade e justiça, ele é treinado em técnicas de respiração e combate. Tanjiro enfrenta desafios formidáveis, mantendo sua compaixão e humanidade.',
     },
     "Bocchi The Rock": {
-        "image_capa": "../midias/image/Bocchi-the-rock/image_capa.png",
+        "image_capa": "midias/image/Bocchi-the-rock/image_capa.png",
         "nome_capa": "Bocchi",
         "nome_anime": "Nome: Bocchi The Rock",
         "estrou": "Estreou: Outono de 2022",
@@ -101,7 +101,7 @@ export const ArrayInfoAnimes = {
         "texto_protagonista": 'Gotoh Hitori é a tímida protagonista de "Bocchi the Rock!". Ela tem uma paixão profunda por tocar guitarra, mas sua ansiedade social a impede de se destacar. Isolada e introvertida, Hitori pratica sozinha em seu quarto, sonhando em se juntar a uma banda. Um encontro casual com uma baterista extrovertida, muda seu destino. Hitori se junta à Kessoku Band e começa a enfrentar seus medos, revelando um talento impressionante e uma determinação que inspira aqueles ao seu redor.',
     },
     "Oshi no Ko": {
-        "image_capa": "../midias/image/Oshi no ko/image_capa.jpeg",
+        "image_capa": "midias/image/Oshi no ko/image_capa.jpeg",
         "nome_capa": "Oshi no Ko",
         "nome_anime": "Nome: Oshi no Ko",
         "estrou": "Estreou: Primavera de 2023",
@@ -119,7 +119,7 @@ export const ArrayInfoAnimes = {
         "texto_protagonista": 'Aqua Hoshino, um dos gêmeos de Ai Hoshino, reencarna como um jovem com a memória de sua vida passada como médico. Determinado a proteger sua mãe e enfrentar os desafios da indústria do entretenimento, Aqua usa sua inteligência e habilidades estratégicas para lidar com as complexidades do show business. Sua busca por justiça e compreensão o torna um personagem central na trama.',
     }, 
     "Konosuba": {
-        "image_capa": "../midias/image/Konosuba/image_capa.jpg",
+        "image_capa": "midias/image/Konosuba/image_capa.jpg",
         "nome_capa": "Konosuba",
         "nome_anime": "Nome: Konosuba",
         "estrou": "Estreou: Inverno de 2016",
@@ -137,7 +137,7 @@ export const ArrayInfoAnimes = {
         "texto_protagonista": 'Kazuma Satou é o protagonista de "KonoSuba". Reencarnado em um mundo de fantasia, ele deve derrotar o Senhor das Trevas. Escolhendo a deusa Aqua como companheira, Kazuma lida com uma série de desventuras ao lado dela e dos excêntricos Megumin e Darkness. Sua abordagem pragmática e sentido de humor o tornam um herói improvável em um mundo de fantasia.',
     },
     "Isekai de Cheat Skill": {
-        "image_capa": "../midias/image/Isekai the cheat skill/image_capa.jpg",
+        "image_capa": "midias/image/Isekai the cheat skill/image_capa.jpg",
         "nome_capa": "Cheat skill",
         "nome_anime": "Nome: Isekai de Cheat Skill",
         "estrou": "Estreou: Primavera de 2023",
@@ -155,7 +155,7 @@ export const ArrayInfoAnimes = {
         "texto_protagonista": 'Yuya Tenjo é o protagonista de "Isekai de Cheat Skill". Após ser transportado para um mundo de fantasia e adquirir habilidades de cheat, ele rapidamente se destaca como um dos mais poderosos do novo universo. Usando seus poderes excepcionais, Yuya enfrenta inimigos e desafios enquanto busca transformar sua vida e encontrar um novo propósito. Sua jornada é marcada por aventuras emocionantes e o desenvolvimento pessoal, revelando uma história de superação e exploração.',
     },
     "Kenka Dokugaku": {
-        "image_capa": "../midias/image/Kenka dokugaku/image_capa.jpeg",
+        "image_capa": "midias/image/Kenka dokugaku/image_capa.jpeg",
         "nome_capa": "Viral Hit",
         "nome_anime": "Nome: Kenka Dokugaku",
         "estrou": "Estreou: Primavera de 2024",
