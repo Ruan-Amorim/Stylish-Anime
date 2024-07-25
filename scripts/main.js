@@ -76,5 +76,20 @@ window.updateInfoAnime = function updateInfoAnime(anime) {
     texto_do_protagonista_infoAnimes.innerHTML = ArrayInfoAnimes[anime].texto_protagonista;
 }
 
+window.infoAnimeRandom = function infoAnimeRandom() {
+    let number;
+    let random = Math.floor(Math.random() * ArrayPreviewAnime.length);
+    
+
+    if (random == number) {
+        random++
+        number = random;
+        updateInfoAnime(ArrayPreviewAnime[random].nome);
+    } else {
+        number = random;
+        updateInfoAnime(ArrayPreviewAnime[random].nome);
+    }
+}
+
 geradorPreviewAnime();
 updateInfoAnime(ArrayPreviewAnime[0].nome);

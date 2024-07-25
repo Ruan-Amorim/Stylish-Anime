@@ -34,73 +34,16 @@
     #ulContainerPlayerAnimes > li > p {
         font-size: 0.6em;
     }
-    /* BLOCO 02 */
-    .img1{
-        width: 33%;
-        height: 48%;
-        margin: 25px 10px 10px 30%;
-    }
-    .img2{
-        width: 25%;
-        height: 30%;
-        right: 10%;
-        bottom: 40%;
-    }
-    .text1 {
-        font-size: 2.5em;
-        text-align: center;
-        margin: 0 77% 0 0;
-        top: 33%;
-        right: 0;
-    }
-    p.text2 {
-        font-size: 2.5em;
-        text-align: center;
-        margin: 25% 35% 0 0;
-        right: 0;
-    }
-    p.text3 {
-        font-size: 3.5em;
-        margin: 8% 40% 0 0;
-        white-space: nowrap;
-        transform: translateX(28%);
-    }
-    .image-poster {
-        width: 20%;
-        height: 15%;
-        margin: 10px;
-        top: 35%;
-        z-index: 10;
-    }
-    .image-icon {
-        width: 15%;
-        height: 15%;
-        margin: 20px;
-        top: 10%;
-        left: 0;
-    }
-    ul.textBox {
-        position: absolute;
-        width: 80%;
-        height: 400px;
-        margin: 0;
-        right: 12px;
-        bottom: 10px;
-        font-size: 16px;
-    }
-    .textBox > li > p{
-        font-size: 12.5px;
-    }
-    .textBox > li > .tituloTextBox {
-        font-size: 0.6em;
-    }
 
     /* SECTION INFORMAÇÃO DE ANIMES */
     section#containerBlocoInfoAnime {
         position: sticky;
-        width: 100vw;
-        height: 320vh;
+        width: 90vw;
+        height: 300vh;
         margin: 20px auto;
+        padding-top: 10px;
+        background: whitesmoke;
+        border-radius: 20px;
     }
     #blocoInfoAnime {
         position: static;
@@ -172,7 +115,6 @@
         height: auto;
         margin: auto;
         padding: 15px;
-        padding-bottom: 83vh;
         transform: translate(0,0);
     }
     #blocoSinopse {
@@ -256,7 +198,7 @@
         text-align: center;
         align-items: center;
         border-radius: 20px;
-        transform: translate(-3px,-87vh);
+        transform: translate(-3px,0);
     }
     #caixaDoProtagonista > div {
         display: inline-block;
@@ -296,10 +238,11 @@
     #textoProtagonista {
         height: 60%;
         margin: auto;
+        padding-bottom: 40px;
         border-radius: 0 0 20px 20px;
-        background: #583AC5;
+        background: linear-gradient(60deg, #C1C1C1, #C2C2C2);
         transition: 0.1s;
-        background: whitesmoke;
+        color: whitesmoke;
     }
     #textoProtagonista > h3 {
         color: whitesmoke;
@@ -312,6 +255,13 @@
     }
     #textoProtagonista:hover {
         scale: 1;
+    }
+    #dadoAnimeRandom{
+        padding: 50px 10px;
+        font-size: 70px;
+        top: -1%;
+        right: -6.5%;
+        scale: 0.6;
     }
 }
 
