@@ -39,7 +39,7 @@
     section#containerBlocoInfoAnime {
         position: sticky;
         width: 90vw;
-        height: 300vh;
+        height: 313vh;
         margin: 20px auto;
         padding-top: 10px;
         background: whitesmoke;
@@ -190,7 +190,7 @@
     #caixaDoProtagonista {
         position: static;
         display: inline-block;
-        width: 100%;
+        width: 110%;
         height: 650px;
         padding: 17px; 
         margin: 30px auto;
@@ -198,7 +198,7 @@
         text-align: center;
         align-items: center;
         border-radius: 20px;
-        transform: translate(-3px,0);
+        transform: translate(-5%,0);
     }
     #caixaDoProtagonista > div {
         display: inline-block;
@@ -238,7 +238,6 @@
     #textoProtagonista {
         height: 60%;
         margin: auto;
-        padding-bottom: 40px;
         border-radius: 0 0 20px 20px;
         background: linear-gradient(60deg, #C1C1C1, #C2C2C2);
         transition: 0.1s;
