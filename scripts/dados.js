@@ -173,3 +173,49 @@ export const ArrayInfoAnimes = {
         "texto_protagonista": 'Yoo Hobin é o protagonista de "Viral Hit". Um estudante do ensino médio que sofre com a humilhação de Pakgo, um famoso streamer, e enfrenta dificuldades financeiras enquanto trabalha para pagar o hospital de sua mãe. Sua vida muda quando uma briga acidental com o cinegrafista Jiksae se torna viral. Aproveitando a fama repentina, Hobin se junta a Jiksae para explorar o potencial do streaming no Newtube. Determinado a transformar sua sorte, Hobin busca superar rivais e alcançar sucesso no competitivo mundo digital.',
     },
 }
+
+export const ArrayInfoPersonagens = {
+    "Youkoso": {
+        "nome_personagem": ['Ayanokouji', 'Horikita', 'Kushida', 'Karuizawa'],
+        "img_personagem": [
+            "midias/image/Youkoso/Kiyotaka_Ayanokōji.png",
+            "midias/image/Youkoso/Suzune_Horikita.png",
+            "midias/image/Youkoso/Kikyō_Kushida.png",
+            "midias/image/Youkoso/Kei_Karuizawa.png"
+        ],
+        "texto_personagem": [
+            'Kiyotaka Ayanokouji é o enigmático protagonista de "Classroom of the Elite". Estudante do prestigioso Colégio Koudo Ikusei, ele esconde suas habilidades extraordinárias e inteligência sob uma fachada de aluno mediano. Treinado na secreta "Sala Branca", Ayanokouji é um estrategista brilhante e manipulador astuto. Sua personalidade calma e reservada esconde sua verdadeira natureza e um passado misterioso, revelado aos poucos à medida que ele protege e influencia seus colegas de classe.', 
+            'Suzune Horikita é uma das principais personagens de "Classroom of the Elite". Aluna do prestigioso Colégio Koudo Ikusei, ela é conhecida por sua inteligência afiada e determinação inabalável. Horikita mantém uma postura fria e distante, concentrando-se exclusivamente em seus objetivos acadêmicos. Sua ambição é alcançar a Classe A, e ela raramente se desvia desse caminho. Com o tempo, Horikita revela camadas mais profundas de sua personalidade, mostrando uma dedicação sincera aos amigos e um desejo de entender melhor os outros, especialmente seu enigmático colega, Kiyotaka Ayanokouji.', 
+            'Kushida Kikyo é uma personagem central em "Classroom of the Elite". Aluna do prestigiado Colégio Koudo Ikusei, ela é conhecida por seu comportamento amigável e sociável, mas esconde uma natureza manipuladora. Apesar de sua fachada de bondade e popularidade, Kushida tem um lado obscuro que busca controlar e sabotar os outros para alcançar seus próprios objetivos. Sua habilidade em manter uma imagem de perfeição torna difícil para os colegas perceberem sua verdadeira intenção até que seus segredos sejam revelados.', 
+            'Karuizawa Kei é uma figura importante em "Classroom of the Elite". Estudante do renomado Colégio Koudo Ikusei, ela é conhecida por sua beleza e charme, mas também por sua personalidade complexa. Karuizawa é frequentemente vista como uma jovem elegante e popular, mas sua aparência atraente oculta uma profunda insegurança e um passado difícil. Sua luta interna e suas estratégias para manter sua posição social revelam uma faceta mais vulnerável e humana, contrastando com sua imagem pública.'
+        ],
+        "color_personagem": [
+            "rgba(124, 1, 0, 0.9) 0%, rgba(200, 50, 50, 0.9) 50%, rgba(124, 1, 0, 0.9) 100% ", 
+            "rgba(0, 51, 102, 0.9) 0%, rgba(51, 102, 153, 0.9) 50%, rgba(0, 51, 102, 0.9) 100%", 
+            "rgba(255, 182, 193, 0.9) 0%, rgba(255, 105, 180, 0.9) 50%, rgba(255, 182, 193, 0.9) 100%", 
+            "rgba(255, 223, 204, 0.9) 0%, rgba(255, 140, 105, 0.9) 50%, rgba(255, 223, 204, 0.9) 100%"
+        ],
+    },
+    "Bocchi The Rock": {
+        "nome_personagem": ['Gotoh Hitori', 'Nijika Ijichi', 'Ikuyo Kita', 'Ryo Yamada'],
+        "img_personagem": [
+            "midias/image/Bocchi-the-rock/Gotoh_Hitori.png",
+            "midias/image/Bocchi-the-rock/Nijika.png",
+            "midias/image/Bocchi-the-rock/Kita-chan.png",
+            "midias/image/Bocchi-the-rock/Ryo.png"
+        ],
+        "texto_personagem": [
+            'Gotoh Hitori é a protagonista introspectiva de "Bocchi the Rock!". Estudante do segundo ano, ela busca se destacar na escola através da música e se destaca como uma guitarrista talentosa. Com um passado marcado por inseguranças e dificuldades sociais, Hitori usa a música como uma forma de expressão e fuga. Sua jornada é uma mistura de desafios pessoais e crescimento, onde sua habilidade com a guitarra é um reflexo de sua evolução e luta por aceitação.', 
+            'Nijika Ijichi é a animada e otimista baterista de "Bocchi the Rock!". Ela é uma colega de banda de Gotoh e possui um espírito energético que contrasta com a personalidade mais reservada de Hitori. Nijika tem um profundo amor pela música e uma atitude positiva que ilumina o ambiente ao seu redor. Apesar das dificuldades, sua paixão pela bateria e seu desejo de criar música com seus amigos a tornam uma peça fundamental na banda e uma fonte constante de motivação.', 
+            'Ikuyo Kita é uma das personagens centrais de "Bocchi the Rock!". Ela é a vocalista principal e apresenta uma presença marcante nas performances da banda. Kita combina um charme natural com uma habilidade vocal impressionante, que a destaca no palco. Apesar de sua aparência confiante, ela enfrenta sua própria série de inseguranças e pressões. Sua dedicação à música e ao grupo reflete sua verdadeira essência e o desejo de crescer como artista, sendo uma figura essencial para o sucesso da banda e um pilar de força para seus colegas.', 
+            'Ryo Yamada é uma das personagens principais da série de mangá e anime, Bocchi the Rock! . Ela está em seu segundo ano na Shimokitazawa High School e é a baixista da banda, Kessoku Band . Ela trabalha meio período na casa de shows STARRY com Nijika Ijichi .Ela tem uma aparência andrógina e uma atmosfera misteriosa, como silêncio e inexpressividade. Ela frequentemente fascina mulheres, incluindo Ikuyo Kita , que se apaixona à primeira vista. '
+        ],
+        "color_personagem": [
+            "rgba(159, 5, 98, 0.9), rgba(176, 8, 109, 0.9), rgba(176, 8, 109, 0.9), rgba(193, 11, 120, 0.9), rgba(226, 16, 142, 0.9)", 
+            "rgba(255, 200, 50, 0.9) 0%, rgba(255, 255, 100, 0.9) 50%, rgba(255, 200, 50, 0.9) 100%", 
+            "rgba(255, 0, 0, 0.9) 0%, rgba(255, 100, 100, 0.9) 50%, rgba(255, 0, 0, 0.9) 100%",
+            "rgba(0, 100, 200, 0.9) 0%, rgba(100, 150, 255, 0.9) 50%, rgba(0, 100, 200, 0.9) 100%"
+            
+        ],
+    },
+}

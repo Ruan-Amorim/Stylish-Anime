@@ -1,5 +1,5 @@
 
-import {ArrayPreviewAnime, ArrayInfoAnimes} from "./dados.js";
+import {ArrayPreviewAnime, ArrayInfoAnimes, ArrayInfoPersonagens} from "./dados.js";
 
 
 var ulContainerPlayerAnimes = window.document.getElementById("ulContainerPlayerAnimes");
@@ -74,13 +74,14 @@ window.updateInfoAnime = function updateInfoAnime(anime) {
     image_protagonista_infoAnimes.style.backgroundImage = `url("${ArrayInfoAnimes[anime].image_protagonista}")`;
     nome_protagonista_infoAnimes.innerText = ArrayInfoAnimes[anime].nome_protagonista;
     texto_do_protagonista_infoAnimes.innerHTML = ArrayInfoAnimes[anime].texto_protagonista;
+
+    gerandoInfoAnime(anime);
 }
 
 window.infoAnimeRandom = function infoAnimeRandom() {
     let number;
     let random = Math.floor(Math.random() * ArrayPreviewAnime.length);
     
-
     if (random == number) {
         random++
         number = random;
@@ -90,6 +91,67 @@ window.infoAnimeRandom = function infoAnimeRandom() {
         updateInfoAnime(ArrayPreviewAnime[random].nome);
     }
 }
+
+function gerandoInfoAnime(anime) {
+
+    var containerPrincipal = window.document.getElementById("containerTwo");
+
+    for (let x = 0; x < ArrayInfoPersonagens[anime].nome_personagem.length; x++) {
+        let container = document.createElement("section");
+        container.className = `containerInfoPersonagens`;
+
+        let cartao = document.createElement("div");
+        cartao.className = "infoPersonagem";
+        
+        let caixaTextoInfoAnime = document.createElement("div");
+        caixaTextoInfoAnime.className = "caixaTextoInfoAnime";
+
+        let tituloInfoPersonagem = document.createElement("h2");
+        tituloInfoPersonagem.className = "tituloInfoPersonagem";
+
+        let textoInfoPersonagem = document.createElement("p");
+        textoInfoPersonagem.className = "textoInfoPersonagem";
+        
+        let imagePersonagem = document.createElement("img");
+        imagePersonagem.className = "imagePersonagem";
+        
+        let circle01 = document.createElement("div");
+        circle01.className = "circle circle01";
+        let circle02 = document.createElement("div");
+        circle02.className = "circle circle02";
+        let circle03 = document.createElement("div");
+        circle03.className = "circle circle03";
+        let circle04 = document.createElement("div");
+        circle04.className = "circle circle04";
+        
+        tituloInfoPersonagem.style.background = `linear-gradient(to left, ${ArrayInfoPersonagens[anime].color_personagem[x]})`;
+        tituloInfoPersonagem.style.webkitBackgroundClip = "text";
+        tituloInfoPersonagem.style.color = "transparent";
+        circle01.style.background = `linear-gradient(to top, ${ArrayInfoPersonagens[anime].color_personagem[x]})`;
+        circle02.style.background = `linear-gradient(to top, ${ArrayInfoPersonagens[anime].color_personagem[x]})`;
+        circle03.style.background = `linear-gradient(to top, ${ArrayInfoPersonagens[anime].color_personagem[x]})`;
+        circle04.style.background = `linear-gradient(to top, ${ArrayInfoPersonagens[anime].color_personagem[x]})`;
+
+        tituloInfoPersonagem.innerText = ArrayInfoPersonagens[anime].nome_personagem[x];
+        textoInfoPersonagem.innerText = ArrayInfoPersonagens[anime].texto_personagem[x];
+        imagePersonagem.src = ArrayInfoPersonagens[anime].img_personagem[x];
+
+        
+        caixaTextoInfoAnime.appendChild(tituloInfoPersonagem);
+        caixaTextoInfoAnime.appendChild(textoInfoPersonagem);
+        
+
+        cartao.appendChild(caixaTextoInfoAnime);
+        cartao.appendChild(imagePersonagem);
+        cartao.appendChild(circle01);
+        cartao.appendChild(circle02);
+        cartao.appendChild(circle03);
+        cartao.appendChild(circle04);
+        container.appendChild(cartao);
+        containerPrincipal.appendChild(container);
+    }
+}
+gerandoInfoAnime(ArrayPreviewAnime[2].nome);
 
 geradorPreviewAnime();
 updateInfoAnime(ArrayPreviewAnime[0].nome);

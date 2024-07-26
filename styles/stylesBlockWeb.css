@@ -459,11 +459,18 @@
     transition: 0.4s;
 }
 /* BLOCO INFORMAÇÃO DE PERSONAGENS */
-
-#containerInfoPersonagens {
+#containerTwo {
+    display: flex;
+    overflow: hidden;
+    overflow-x: auto; /* Adiciona rolagem horizontal se necessário */
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory; /* Travar a rolagem verticalmente */
+}
+.containerInfoPersonagens {
     position: relative;
-    width: 100vw;
-    height: 100vh;
+    min-width: 100vw;
+    min-height: 100vh;
+    scroll-snap-align: start; /* Travar no início de cada seção */
 }
 
 .infoPersonagem {
@@ -507,8 +514,8 @@
     right: 0;
     transform: translateY(-50%);
     background: linear-gradient(to top, rgba(124, 1, 0, 0.9) 0%, rgba(200, 50, 50, 0.9) 50%, rgba(124, 1, 0, 0.9) 100%);
-
     border-radius: 50%;
+    z-index: -1;
 }
 .circle02 {
     position: absolute;
@@ -527,12 +534,13 @@
 
 .imagePersonagem {
     position: absolute;
-    width: 20%;
+    width: auto;
+    max-width: 30%;
     height: 100%;
-    margin: 0 17%;
+    margin: 0 10%;
     top: 0;
     right: 0;
     background-position: center;
     scale: 0.9;
-    z-index: 1;
+    z-index: 2;
 }
