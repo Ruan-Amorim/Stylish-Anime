@@ -207,8 +207,8 @@ export const ArrayInfoPersonagens = {
         "texto_personagem": [
             'Gotoh Hitori é a protagonista introspectiva de "Bocchi the Rock!". Estudante do segundo ano, ela busca se destacar na escola através da música e se destaca como uma guitarrista talentosa. Com um passado marcado por inseguranças e dificuldades sociais, Hitori usa a música como uma forma de expressão e fuga. Sua jornada é uma mistura de desafios pessoais e crescimento, onde sua habilidade com a guitarra é um reflexo de sua evolução e luta por aceitação.', 
             'Nijika Ijichi é a animada e otimista baterista de "Bocchi the Rock!". Ela é uma colega de banda de Gotoh e possui um espírito energético que contrasta com a personalidade mais reservada de Hitori. Nijika tem um profundo amor pela música e uma atitude positiva que ilumina o ambiente ao seu redor. Apesar das dificuldades, sua paixão pela bateria e seu desejo de criar música com seus amigos a tornam uma peça fundamental na banda e uma fonte constante de motivação.', 
-            'Ikuyo Kita é uma das personagens centrais de "Bocchi the Rock!". Ela é a vocalista principal e apresenta uma presença marcante nas performances da banda. Kita combina um charme natural com uma habilidade vocal impressionante, que a destaca no palco. Apesar de sua aparência confiante, ela enfrenta sua própria série de inseguranças e pressões. Sua dedicação à música e ao grupo reflete sua verdadeira essência e o desejo de crescer como artista, sendo uma figura essencial para o sucesso da banda e um pilar de força para seus colegas.', 
-            'Ryo Yamada é uma das personagens principais da série de mangá e anime, Bocchi the Rock! . Ela está em seu segundo ano na Shimokitazawa High School e é a baixista da banda, Kessoku Band . Ela trabalha meio período na casa de shows STARRY com Nijika Ijichi .Ela tem uma aparência andrógina e uma atmosfera misteriosa, como silêncio e inexpressividade. Ela frequentemente fascina mulheres, incluindo Ikuyo Kita , que se apaixona à primeira vista. '
+            'Ikuyo Kita é uma das personagens principais da série de mangá e anime, Bocchi the Rock!. Ela está no primeiro ano da Shuka High School e é responsável pela guitarra e vocais da banda, Kessoku Band. Ela começou a admirar Ryo Yamada depois de ver seu show de rua, então ela entrou na Kessuko Band, com a motivação inicial de estar gostando da Ryo Yamada, entretanto, ela começa a compartilhar do amor pela banda e música.', 
+            'Ryo Yamada é uma das personagens principais da série de mangá e anime, Bocchi the Rock!. Ela está em seu segundo ano na Shimokitazawa High School e é a baixista da banda, Kessoku Band . Ela trabalha meio período na casa de shows STARRY com Nijika Ijichi .Ela tem uma aparência andrógina e uma atmosfera misteriosa, como silêncio e inexpressividade. Ela frequentemente fascina mulheres, incluindo Ikuyo Kita , que se apaixona à primeira vista. '
         ],
         "color_personagem": [
             "rgba(159, 5, 98, 0.9), rgba(176, 8, 109, 0.9), rgba(176, 8, 109, 0.9), rgba(193, 11, 120, 0.9), rgba(226, 16, 142, 0.9)", 
@@ -216,6 +216,27 @@ export const ArrayInfoPersonagens = {
             "rgba(255, 0, 0, 0.9) 0%, rgba(255, 100, 100, 0.9) 50%, rgba(255, 0, 0, 0.9) 100%",
             "rgba(0, 100, 200, 0.9) 0%, rgba(100, 150, 255, 0.9) 50%, rgba(0, 100, 200, 0.9) 100%"
             
+        ],
+    },
+    "Kimetsu No Yaiba": {
+        "nome_personagem": ['Tanjiro Kamado', 'Zenitsu Agatsuma', 'Inosuke Hashibira', 'Kyojuro Rengoku'],
+        "img_personagem": [
+            "midias/image/Kimetsu no Yaiba/Tanjiro.png",
+            "midias/image/Kimetsu no Yaiba/Zenistu.png",
+            "midias/image/Kimetsu no Yaiba/Inosuki.png",
+            "midias/image/Kimetsu no Yaiba/Rengoku.png"
+        ],
+        "texto_personagem": [
+            'Tanjiro Kamado é o protagonista principal de Demon Slayer: Kimetsu no Yaiba . Ele é um Caçador de Demônios na Demon Slayer Corps que se juntou para encontrar um remédio para transformar sua irmã, Nezuko Kamado, de volta em humana e para caçar e matardemônios, e mais tarde jurou derrotarMuzan Kibutsuji, o Rei dos Demônios, a fim de evitar que outros sofressem o mesmo destino que ele. Antes de se tornar um Matador de Demônios, Tanjiro era um queimador de carvão antes de sua família ser massacrada por Muzan, enquanto sua irmã mais nova, Nezuko , foi transformada em um demônio.',
+            'Zenitsu é um espadachim incrivelmente talentoso, exibindo proficiência altamente refinada em esgrima extremamente rápida como Iaijutsu e na técnica Thunderclap e Flash , a ponto de poder criar ramificações da técnica e utilizá-la mesmo enquanto dorme. Desde o início, Zenitsu parece um Matador de Demônios talentoso e habilidoso, embora ele negue isso. Sua força desperta quando ele está dormindo, pois seu comportamento nervoso é o que normalmente o impede de acessar suas habilidades, tornando-o mais sagaz, calmo e preciso em combate.',
+            'Inosuke Hashibira é um dos personagens principais de Demon Slayer: Kimetsu no Yaiba e, junto com Zenitsu Agatsuma, é um companheiro de viagem de Tanjiro Kamadoe Nezuko Kamado. Inosuke é um espadachim muito habilidoso e talentoso, pois ele foi capaz de aprender a Respiração de Concentração Total por conta própria, desenvolver seu próprio Estilo de Respiração conhecido como Respiração da Besta com base em seus próprios instintos e criação nas montanhas por javalis, e passar na Seleção Final para se tornar um Matador de Demônios, tudo sem treinamento formal.',
+            'Como um Hashira do Demon Slayer Corps, Kyojuro era um combatente muito poderoso e habilidoso. Antes de tomar o lugar de seu pai, Kyojuro já havia se mostrado um lutador incrível.  Kyojuro foi um dos espadachins mais poderosos e habilidosos de toda a organização. Além disso, Kyojuro faz parte da família Rengoku, que tem uma linhagem impressionante de poderosos espadachins e Flame Hashira, dando a Kyojuro uma vantagem no desenvolvimento e polimento de sua esgrima. Sua extraordinária habilidade com a espada foi exibida em várias ocasiões ao longo da série.'
+        ],
+        "color_personagem": [
+           "rgba(30, 60, 150, 0.9) 0%, rgba(60, 100, 200, 0.9) 50%, rgba(30, 60, 150, 0.9) 100%",
+           "rgba(255, 220, 80, 0.9) 0%, rgba(255, 200, 90, 0.9) 25%, rgba(255, 180, 40, 0.9) 50%, rgba(255, 160, 50, 0.9) 75%, rgba(255, 220, 80, 0.9) 100%",
+           "rgba(150, 90, 80, 0.9) 0%, rgba(200, 120, 100, 0.9) 50%, rgba(150, 90, 80, 0.9) 100%",
+           "rgba(255, 80, 30, 0.9) 0%, rgba(255, 140, 70, 0.9) 50%, rgba(255, 80, 30, 0.9) 100%",
         ],
     },
 }

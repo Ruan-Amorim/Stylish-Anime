@@ -77,6 +77,7 @@ window.updateInfoAnime = function updateInfoAnime(anime) {
 
     gerandoInfoAnime(anime);
 }
+// ESCOLHENDO ANIMES RANDOMICAMENTE
 
 window.infoAnimeRandom = function infoAnimeRandom() {
     let number;
@@ -91,10 +92,12 @@ window.infoAnimeRandom = function infoAnimeRandom() {
         updateInfoAnime(ArrayPreviewAnime[random].nome);
     }
 }
+//  GERANDO E FAZENDO O UPDATE NO BLOCO DE INFORMAÇÃO DE ANIMES
 
 function gerandoInfoAnime(anime) {
 
     var containerPrincipal = window.document.getElementById("containerTwo");
+    containerPrincipal.innerHTML = '';
 
     for (let x = 0; x < ArrayInfoPersonagens[anime].nome_personagem.length; x++) {
         let container = document.createElement("section");
@@ -140,6 +143,17 @@ function gerandoInfoAnime(anime) {
         caixaTextoInfoAnime.appendChild(tituloInfoPersonagem);
         caixaTextoInfoAnime.appendChild(textoInfoPersonagem);
         
+
+        // Condiçãoes para ajustes conforme o anime
+
+        if (anime == "Kimetsu No Yaiba") {
+            imagePersonagem.style.margin = "0 0";
+            if (ArrayInfoPersonagens[anime].img_personagem[x] == "midias/image/Kimetsu no Yaiba/Tanjiro.png") {
+                imagePersonagem.style.margin = "0 0";
+            }
+        } else {
+            
+        }
 
         cartao.appendChild(caixaTextoInfoAnime);
         cartao.appendChild(imagePersonagem);
