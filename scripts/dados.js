@@ -239,4 +239,25 @@ export const ArrayInfoPersonagens = {
            "rgba(255, 80, 30, 0.9) 0%, rgba(255, 140, 70, 0.9) 50%, rgba(255, 80, 30, 0.9) 100%",
         ],
     },
+    "Oshi no Ko": {
+        "nome_personagem": ['Aqua Hoshino', 'Ai Hoshino', 'Ruby Hoshino', 'Arima Kana'],
+        "img_personagem": [
+            "midias/image/Oshi no ko/Aqua_Hoshino.png",
+            "midias/image/Oshi no ko/hoshino_ai.png",
+            "midias/image/Oshi no ko/Ruby.png",
+            "midias/image/Oshi no ko/Arima_kana.png"
+        ],
+        "texto_personagem": [
+            'Água Hoshino, nome completo, Aquamarine Hoshino ou mais comumente conhecido apenas como Aqua, é o protagonista masculino e um dos personagens titulares de Oshi no Ko . Em sua vida anterior, ele era conhecido como Gorou Amamiya , um médico que foi assassinado por um perseguidor de um de seus pacientes, Ai Hoshino , e reencarnou como filho deste último. Antes da tragédia que atingiu sua família, Aqua era considerado relativamente normal, exceto por seu talento prodigioso incomparável em atuar, mesmo quando criança, e sua sagacidade e inteligência como ler livros complexos.',
+            'Ai Hoshino foi a personagem titular e a garota-propaganda de Oshi no Ko . Ela foi a ídolo principal do B-Komachi original e mãe de Aqua Hoshino e Ruby Hoshino. Como ídolo, ela viveu uma vida de enganos fingindo amar genuinamente seus fãs. Depois de engravidar dos gêmeos, para não desperdiçar sua reputação, ela deu à luz e os criou em segredo, desempenhando o papel de ídolo e mãe. No entanto, suas mentiras inevitavelmente a pegaram quando ela foi fatalmente atacada por um fã descontente , usando seus momentos finais para dizer aos filhos que os amava.',
+            'Ruby Hoshino, mais comumente referida apenas como Ruby, é a protagonista feminina e uma das personagens titulares de Oshi no Ko . Em sua vida anterior, ela era conhecida como Sarina Tendouji , uma paciente terminal que foi cuidada por Gorou Amamiya e, após sua morte, reencarnou como filha de seu ídolo favorito, Ai Hoshino. Ao contrário de Aqua, que é calma, calculista e discreta, Ruby é o oposto polar dele, pois é extrovertida, extrovertida, barulhenta, otimista e comunicativa em comparação com seu irmão taciturno. ',
+            'Kana Arima é uma personagem coadjuvante importante em Oshi no Ko . Ela é uma conhecida de infância de Aqua e Ruby Hoshino e uma atriz infantil prodigiosa, embora sua popularidade tenha diminuído ao longo dos anos. Ela também é o centro do grupo ídolo revivido B-Komachi. Kana é descrita como uma garota diligente e trabalhadora, empática, alegre e confiante, com um impressionante senso de responsabilidade. Ela também pode ser rude e de língua afiada às vezes devido ao seu passado.'
+        ],
+        "color_personagem": [
+           "rgba(0, 150, 255, 0.9) 0%, rgba(0, 120, 230, 0.9) 25%, rgba(0, 100, 200, 0.9) 50%, rgba(0, 80, 170, 0.9) 75%, rgba(0, 150, 255, 0.9) 100%",
+           "rgba(255, 180, 200, 0.9) 0%, rgba(255, 150, 190, 0.9) 25%, rgba(255, 120, 160, 0.9) 50%, rgba(255, 100, 140, 0.9) 75%, rgba(255, 180, 200, 0.9) 100%",
+           "rgba(255, 70, 70, 0.9) 0%, rgba(255, 130, 50, 0.9) 33%, rgba(255, 180, 40, 0.9) 66%, rgba(255, 70, 70, 0.9) 100%",
+           "rgba(120, 30, 50, 0.9) 0%, rgba(150, 50, 70, 0.9) 25%, rgba(180, 70, 90, 0.9) 50%, rgba(150, 50, 70, 0.9) 75%, rgba(120, 30, 50, 0.9) 100%",
+        ],
+    },
 }
