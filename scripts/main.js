@@ -148,9 +148,10 @@ function gerandoInfoAnime(anime) {
 
         if (anime == "Kimetsu No Yaiba") {
             imagePersonagem.style.margin = "0 0";
-            if (ArrayInfoPersonagens[anime].img_personagem[x] == "midias/image/Kimetsu no Yaiba/Tanjiro.png") {
+        } else if (anime == "Konosuba") {
+            if (ArrayInfoPersonagens[anime].img_personagem[x] != "midias/image/Konosuba/Kazuma.png") {
                 imagePersonagem.style.margin = "0 0";
-            }
+            } 
         } else {
             
         }

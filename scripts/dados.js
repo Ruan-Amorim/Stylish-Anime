@@ -260,4 +260,25 @@ export const ArrayInfoPersonagens = {
            "rgba(120, 30, 50, 0.9) 0%, rgba(150, 50, 70, 0.9) 25%, rgba(180, 70, 90, 0.9) 50%, rgba(150, 50, 70, 0.9) 75%, rgba(120, 30, 50, 0.9) 100%",
         ],
     },
+    "Konosuba": {
+        "nome_personagem": ['Kazuma', 'Aqua', 'Darkness', 'Megumin'],
+        "img_personagem": [
+            "midias/image/Konosuba/Kazuma.png",
+            "midias/image/Konosuba/Aqua.png",
+            "midias/image/Konosuba/Darkness.png",
+            "midias/image/Konosuba/Megumin.png"
+        ],
+        "texto_personagem": [
+            'Kazuma Satou, é o protagonista de Konosuba. após morrer ele é guiado para outro mundo pela deusa Aqua, levando ela consigo para esse novo mundo. Quando ele tem dinheiro suficiente para viver confortavelmente, Kazuma não tem vergonha de ser um vagabundo preguiçoso, e certamente agirá como um. Quando todos podem escapar com segurança de uma luta difícil, Kazuma recua mais rápido do que as mulheres. Kazuma pode ser um trabalhador esforçado e um lutador engenhoso, mas ele provavelmente será seu eu pervertido e preguiçoso, a menos que a situação exija.',
+            'Aqua é uma das principais protagonistas da série KonoSuba. Antes da vida no Mundo da Fantasia, ela era uma Deusa da Água que guiava os humanos na vida após a morte. Ela é adorada no Mundo da Fantasia pela Ordem de Axis. Ela é uma garota bem chorona que frequentemente reclama, mas pode ficar séria em caso de perigo. Aqua não tem habilidades analíticas básicas e autoconsciência para usar seu conhecimento efetivamente. Sua sorte é tão baixa que constantemente a coloca em situações ruins; pode até mesmo contrariar a sorte de Kazuma e seus próprios buffs.',
+            'Darkness vem de uma família rica, sendo uma Cruzado e uma das personagens principais da série Kono Subarashii Sekai ni Shukufuku Wo!. Ela tem uma personalidade masoquista e uma mira horrenda, gerando momentos engraçados e não sendo nenhum pouco adequada para combate um contra um. Apesar de seus pontos fracos, Darkness é uma Cruzado muito forte, ajudando na defesa e sendo uma tanque inestimável tanto para a guilda como para o grupo do Kazuma.',
+            'Megumin é uma das personagens principais de Kono Subarashii Sekai ni Shukufuku Wo! Megumin é uma Archwizard e a primeira pessoa a se juntar ao grupo de Kazuma. Sendo um Demônio Carmesim; Megumin possui uma alta estatística mágica que lhe permitiu fazer a classe Archwizard no nível um. No entanto, seu desejo de praticar apenas Magia de Explosão a deixou incapaz de encontrar trabalho até que ela se juntou ao grupo de Kazuma. Os talentos e a personalidade de Megumin conseguem torná-la uma responsabilidade e um ativo valioso.'
+        ],
+        "color_personagem": [
+           "rgba(0, 80, 0, 0.9) 0%, rgba(0, 120, 0, 0.9) 25%, rgba(0, 160, 0, 0.9) 50%, rgba(0, 120, 0, 0.9) 75%, rgba(0, 80, 0, 0.9) 100%",
+           "rgba(0, 180, 255, 0.9) 0%, rgba(0, 150, 230, 0.9) 25%, rgba(0, 120, 200, 0.9) 50%, rgba(0, 90, 170, 0.9) 75%, rgba(0, 180, 255, 0.9) 100%",
+           "rgba(255, 140, 0, 0.9) 0%, rgba(255, 160, 40, 0.9) 25%, rgba(255, 180, 80, 0.9) 50%, rgba(255, 160, 40, 0.9) 75%, rgba(255, 140, 0, 0.9) 100%",
+           "rgba(180, 30, 180, 0.9) 0%, rgba(220, 50, 50, 0.9) 25%, rgba(200, 30, 30, 0.9) 50%, rgba(220, 50, 50, 0.9) 75%, rgba(180, 30, 180, 0.9) 100%"
+        ],
+    },
 }
