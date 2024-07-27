@@ -281,4 +281,25 @@ export const ArrayInfoPersonagens = {
            "rgba(180, 30, 180, 0.9) 0%, rgba(220, 50, 50, 0.9) 25%, rgba(200, 30, 30, 0.9) 50%, rgba(220, 50, 50, 0.9) 75%, rgba(180, 30, 180, 0.9) 100%"
         ],
     },
+    "Isekai de Cheat Skill": {
+        "nome_personagem": ['Yuuya', 'Kaori', 'Lexia', 'Miu'],
+        "img_personagem": [
+            "midias/image/Isekai the cheat skill/Yuuya.png",
+            "midias/image/Isekai the cheat skill/Kaori.png",
+            "midias/image/Isekai the cheat skill/Lexia.png",
+            "midias/image/Isekai the cheat skill/Miu.png"
+        ],
+        "texto_personagem": [
+            'Yuuya Tenjou é o protagonista principal da série. Ele descobriu a porta para outro mundo no quarto secreto de seu avô e pode ir e voltar entre Argena e a Terra. Ele se tornou extraordinário em ambos os mundos. Desde que Yuuya foi discriminado por todos, exceto por seu avô , ele tem um complexo de inferioridade que às vezes o corrói. Por causa disso, ele não tem muita confiança para se defender e é oprimido mesmo se o fizer. Embora ele esteja extremamente arrependido de sua vida de cabeça para baixo, ele nunca deixa de ser uma pessoa gentil.',
+            'Kaori Houjou é a filha do presidente do internato Tsukasa Houjou que foi salva por Yuuya Tenjou quando estava sendo assediada por alguns estranhos perto da loja de conveniência. Sentindo-se altamente em dívida com ele, ela o convidou pessoalmente para se tornar um aluno da academia mais prestigiada do Japão, a Academia Ousei . Conforme a história avança, ela se apaixona por ele, embora ainda não tenha percebido. Ela é a primeira terráquea trazida por Yuuya para viajar para outro mundo.',
+            'Lexia Von Arselia, é a primeira princesa do Reino Arselian . Durante sua escolta, ela foi emboscada por um grupo misterioso, que pretendia matá-la. Enquanto ela estava encurralada por eles, um general goblin matou o grupo e estava prestes a matá-la, mas Yuuya a salvou, mais tarde ela desmaiou na cena. Isso também a fez se apaixonar por ele à primeira vista. Lexia é uma garota extremamente extrovertida que diz o que quer que esteja em sua mente sem rodeios e agudamente ciente de que às vezes ela pode parecer mimada, mas ela se defende geralmente dizendo que é a Primeira Princesa.',
+            'Miu Midou, é uma modelo popular na Star Productions que fez parceria com Yuuya Tenjou para uma sessão de fotos porque seu antigo parceiro designado, Shou, estava atrasado e acabou sendo demitido pelo gerente da Star Productions por negligência e assédio. Miu conheceu Yuuya no shopping. Eles se tornaram parceiros modelos designados para fotos de "Namorado e Namorada". Miu desenvolveu um sentimento romântico por Yuuya e estava disposta a fazer qualquer coisa para que Yuuya finalmente fosse aceita como modelo pela Star Productions.'
+        ],
+        "color_personagem": [
+           "rgba(0, 0, 0, 0.9) 0%, rgba(50, 20, 20, 0.9) 25%, rgba(100, 40, 40, 0.9) 50%, rgba(50, 20, 20, 0.9) 75%, rgba(0, 0, 0, 0.9) 100%",
+           "rgba(0, 0, 0, 0.9) 0%, rgba(50, 20, 20, 0.9) 25%, rgba(100, 40, 40, 0.9) 50%, rgba(50, 20, 20, 0.9) 75%, rgba(0, 0, 0, 0.9) 100%",
+           "rgba(200, 120, 80, 0.9) 0%, rgba(240, 150, 90, 0.9) 25%, rgba(255, 180, 120, 0.9) 50%, rgba(240, 150, 90, 0.9) 75%, rgba(200, 120, 80, 0.9) 100%",
+           "rgba(100, 60, 30, 0.9) 0%, rgba(140, 90, 60, 0.9) 25%, rgba(180, 120, 90, 0.9) 50%, rgba(140, 90, 60, 0.9) 75%, rgba(100, 60, 30, 0.9) 100%"
+        ],
+    },
 }
