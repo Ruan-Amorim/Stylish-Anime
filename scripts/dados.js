@@ -282,7 +282,7 @@ export const ArrayInfoPersonagens = {
         ],
     },
     "Isekai de Cheat Skill": {
-        "nome_personagem": ['Yuuya', 'Kaori', 'Lexia', 'Miu'],
+        "nome_personagem": ['Yuuya Tenjou', 'Kaori Houjou', 'Lexia Von Arselia', 'Miu Midou'],
         "img_personagem": [
             "midias/image/Isekai the cheat skill/Yuuya.png",
             "midias/image/Isekai the cheat skill/Kaori.png",
