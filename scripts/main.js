@@ -78,15 +78,16 @@ window.updateInfoAnime = function updateInfoAnime(anime) {
     gerandoInfoAnime(anime);
 }
 // ESCOLHENDO ANIMES RANDOMICAMENTE
+function randomAnime() {
+    return Math.floor(Math.random() * ArrayPreviewAnime.length);
+}
 
 window.infoAnimeRandom = function infoAnimeRandom() {
     let number;
-    let random = Math.floor(Math.random() * ArrayPreviewAnime.length);
-    
+    let random = randomAnime();
+
     if (random == number) {
-        random++
-        number = random;
-        updateInfoAnime(ArrayPreviewAnime[random].nome);
+        infoAnimeRandom();
     } else {
         number = random;
         updateInfoAnime(ArrayPreviewAnime[random].nome);
@@ -151,6 +152,9 @@ function gerandoInfoAnime(anime) {
         } else if (anime == "Konosuba") {
             if (ArrayInfoPersonagens[anime].img_personagem[x] != "midias/image/Konosuba/Kazuma.png") {
                 imagePersonagem.style.margin = "0 0";
+                if (ArrayInfoPersonagens[anime].img_personagem[x] == "img_personagem") {
+                    imagePersonagem.style.width = "100%";
+                }
             } 
         } else {
             
