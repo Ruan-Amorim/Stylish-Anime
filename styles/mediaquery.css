@@ -262,6 +262,54 @@
         right: -6.5%;
         scale: 0.6;
     }
+
+    /* BLOCO INFORMAÇÃO DE PERSONAGENS */
+    .tituloInfoPersonagem {
+        width: 95%;
+        color: black;
+        margin: 0;
+        text-align: center;
+        font-size: 2.8em;
+        font-weight: bold;
+    }
+    .textoInfoPersonagem {
+        width: 95%;
+        margin: auto;
+        text-align: center;
+        font-size: 1.1em;
+        z-index: 100;
+    }
+    .circle {
+        width: 90%;
+        height: 40%;
+        margin: 0;
+        top: auto;
+        bottom: -4%;
+        right: -20%;
+        transform: translateY(0);
+    }
+    .circle02 {
+        transform: translateY(-30%)  translateX(30%);
+    }
+    .circle03 {
+        transform: translateY(30%)  translateX(30%);
+    }
+    .circle04 {
+        bottom: -23%;
+        left: -53%;
+        transform: translateY(0) translateX(0);
+    }
+    .imagePersonagem {
+        width: auto;
+        max-width: 80%;
+        height: 40%;
+        margin: 0 5%;
+        top: auto;
+        right: 0;
+        bottom: 0;
+        scale: 0.9;
+        z-index: 2;
+    }
 }
 
 @media screen and (min-width: 471px) and (max-width: 700px) {
