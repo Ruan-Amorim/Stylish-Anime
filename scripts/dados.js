@@ -43,9 +43,33 @@ export const ArrayPreviewAnime = [
         "imagemPC": "https://pbs.twimg.com/media/GK45V32W0AEY29w.jpg",
         "imagemCL": "https://pbs.twimg.com/media/GK45V32W0AEY29w.jpg",
     },
+    {
+        "nome": "Mushoku Tensei",
+        "sinopse": "Mushoku Tensei: segue a história de um homem de 34 anos que, após uma vida de fracassos, é reencarnado em um mundo de fantasia como um bebê chamado Rudeus Greyrat. Determinado a aproveitar sua segunda chance, ele decide mudar sua vida e se dedicar ao desenvolvimento de suas habilidades mágicas excepcionais.",
+        "imagemPC": "https://wallpaper.forfun.com/fetch/d3/d374fe163503d05842a7a202e0d15a44.jpeg",
+        "imagemCL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGlNYr_QcD2j1PHatME9PYmgpP0KVfTKGX3A&s",
+    },
 ];
 
 export const ArrayInfoAnimes = {
+    "Mushoku Tensei": {
+        "image_capa": "midias/image/Mushoku Tensei/image_capa.jpeg",
+        "nome_capa": "Mushoku",
+        "nome_anime": "Nome: Mushoku Tensei: Jobless Reincarnation",
+        "estrou": "Estreou: Inverno 2021",
+        "fonte": "Fonte: Light novel",
+        "genero": "Gêneros: Drama , Aventura , Fantasia , Ecchi",
+        "temas": "Temas: Isekai , Reencarnação",
+        "produtores": "Produtores: Frontier, Works, TOHO, Hakuhodo DY Música e Imagem, BS11, Egg firm, Kadokawa, GREE, Toho music",
+        "estudios": "Estúdios: Studio Bind",
+        "titulo": "Mushoku Tensei: Jobless Reincarnation",
+        "sinopse": "Mushoku Tensei segue a história de um homem de 34 anos que, após uma vida de fracassos, é reencarnado em um mundo de fantasia como um bebê chamado Rudeus Greyrat. Determinado a aproveitar sua segunda chance, ele decide mudar sua vida e se dedicar ao desenvolvimento de suas habilidades mágicas excepcionais.<br><br> Enquanto cresce, Rudeus enfrenta diversos desafios e aventuras, estabelecendo novas amizades e inimigos. A série explora temas de redenção e autodescoberta, focando na busca de Rudeus por um propósito e uma vida significativa no novo mundo.",
+        "score": "8.37",
+        "users": "841.144 users",
+        "image_protagonista": "midias/image/Mushoku Tensei/image_prota.jpeg",
+        "nome_protagonista": "Rudeus",
+        "texto_protagonista": 'Rudeus Greyrat é o protagonista de Mushoku Tensei. Reencarnado em um mundo de fantasia, ele é um jovem com habilidades mágicas excepcionais. Determinado a aproveitar sua nova vida, Rudeus enfrenta desafios e aventuras, buscando superar seu passado e se tornar uma pessoa valiosa. Com uma personalidade carismática e um passado de arrependimento, ele se esforça para criar um futuro melhor, enquanto constrói relacionamentos complexos e enfrenta adversidades.',
+    },
     "Youkoso": {
         "image_capa": "midias/image/Youkoso/image_capa.jpg",
         "nome_capa": "Youkoso",
@@ -175,6 +199,30 @@ export const ArrayInfoAnimes = {
 }
 
 export const ArrayInfoPersonagens = {
+    "Mushoku Tensei": {
+        "nome_personagem": ['Rudeus Greyrat', 'Eris Boreas Greyrat', 'Roxy Migurdia', 'Ghislaine Dedoldia', 'Ruijerdi Jamil'],
+        "img_personagem": [
+            "midias/image/Mushoku Tensei/Rudeus.png",
+            "midias/image/Mushoku Tensei/Eris.png",
+            "midias/image/Mushoku Tensei/Roxy.png",
+            "midias/image/Mushoku Tensei/ghislaine.png",
+            "midias/image/Mushoku Tensei/Ruijerdi.png",
+        ],
+        "texto_personagem": [
+            'Rudeus Greyrat é o protagonista de Mushoku Tensei: Jobless Reincarnation. Reencarnado em um mundo de fantasia, ele possui habilidades mágicas excepcionais e uma sabedoria além de sua idade. Determinado a aproveitar sua nova vida, Rudeus enfrenta diversos desafios, buscando superar o passado e se tornar uma pessoa de valor. Com uma personalidade complexa, ele constrói relações significativas e enfrenta perigos enquanto busca um propósito para sua vida.',
+            'Eris Boreas Greyrat é uma personagem chave em Mushoku Tensei. Inicialmente uma jovem impulsiva e de temperamento forte, ela cresce e amadurece ao lado de Rudeus. Sua habilidade com espadas é notável, e sua personalidade, que pode ser feroz e determinada, revela um lado mais profundo conforme a história avança. Eris busca aprimorar suas habilidades e encontrar seu próprio caminho enquanto enfrenta desafios emocionais e físicos.',
+            'Roxy Migurdia é a talentosa mentora mágica de Rudeus em Mushoku Tensei. Ela é uma maga poderosa e dedicada, conhecida por sua habilidade em magia e pelo desejo de ensinar. Apesar de sua aparência jovem e seu comportamento reservado, Roxy carrega uma profunda sabedoria e um desejo sincero de ajudar seus alunos. Sua jornada pessoal é marcada por desafios e auto-descoberta enquanto busca crescer e entender melhor o mundo ao seu redor.',
+            'Ghislaine Dedoldia é uma habilidosa espadachim em Mushoku Tensei. Com uma força imensa e uma lealdade inabalável, Ghislaine serve como protetora e mentora para Rudeus e seus amigos. Sua experiência em combate e sua personalidade forte são equilibradas por uma gentileza interior, revelando um caráter complexo. Ela é conhecida por sua habilidade em luta e sua dedicação àqueles que considera importantes.',
+            'Ruijerdi Jamil é um personagem intrigante em Mushoku Tensei. Conhecido por sua inteligência e habilidades excepcionais, ele desempenha um papel importante na trama com sua visão estratégica e perspicácia. Seu passado misterioso e suas motivações são gradualmente revelados ao longo da história, mostrando uma personalidade multifacetada. Ruijerdi é um personagem que combina habilidade e profundidade emocional de maneira notável.',
+        ],
+        "color_personagem": [ 
+            "rgba(255, 220, 180, 0.9) 0%, rgba(240, 200, 160, 0.9) 50%, rgba(255, 220, 180, 0.9) 100%", 
+            "rgba(255, 0, 0, 0.9) 0%, rgba(200, 0, 0, 0.9) 50%, rgba(255, 0, 0, 0.9) 100%", 
+            "rgba(0, 0, 255, 0.9) 0%, rgba(100, 100, 255, 0.9) 50%, rgba(0, 0, 255, 0.9) 100%",
+            "rgba(0, 128, 0, 0.9) 0%, rgba(0, 100, 0, 0.9) 50%, rgba(0, 128, 0, 0.9) 100%",
+            "rgba(128, 0, 128, 0.9) 0%, rgba(100, 0, 100, 0.9) 50%, rgba(128, 0, 128, 0.9) 100%",
+        ],
+    },
     "Youkoso": {
         "nome_personagem": ['Ayanokouji', 'Horikita', 'Kushida', 'Karuizawa'],
         "img_personagem": [

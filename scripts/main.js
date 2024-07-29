@@ -150,7 +150,7 @@ function gerandoInfoAnime(anime) {
         if (anime == "Kimetsu No Yaiba") {
             imagePersonagem.style.margin = "0 0";
             if (ArrayInfoPersonagens[anime].nome_personagem[x] == 'Nezuko Kamado') {
-                if (window.innerWidth < 470) {
+                if (window.innerWidth <= 480) {
                     imagePersonagem.style.maxWidth = "100%";
                     imagePersonagem.style.right = "-15%";
                 } else {
@@ -158,7 +158,7 @@ function gerandoInfoAnime(anime) {
                     imagePersonagem.style.right = "-15%";
                 }
             } else if (ArrayInfoPersonagens[anime].nome_personagem[x] == 'Tanjiro Kamado') {
-                if (window.innerWidth < 470) {
+                if (window.innerWidth <= 480) {
                     imagePersonagem.style.right = "-5%";
                 } else {
                     imagePersonagem.style.right = "-3%";
@@ -170,6 +170,8 @@ function gerandoInfoAnime(anime) {
             } else if (ArrayInfoPersonagens[anime].nome_personagem[x] == 'Megumin') {
                 imagePersonagem.style.maxWidth = "100%";
             }
+        } else if (anime == "Mushoku Tensei"){
+            imagePersonagem.style.margin = "0 0";
         } else {
             
         }
