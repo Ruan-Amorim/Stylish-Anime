@@ -47,13 +47,13 @@ window.AnimeClick = function AnimeClick(Anime){
     ArrayPreviewAnime.push(firstElement);
 
     loading();
-    updateInfoAnime(Anime);
 }
 
 function loading() {
     ulContainerPlayerAnimes.innerHTML = ''
     geradorPreviewAnime();
     bloco1.style.backgroundImage = `url("${encodeURI(ArrayPreviewAnime[0].imagemPC)}")`;
+    updateInfoAnime(ArrayPreviewAnime[0].nome);
 }
 
 window.updateInfoAnime = function updateInfoAnime(anime) {
@@ -186,7 +186,6 @@ function gerandoInfoAnime(anime) {
         containerPrincipal.appendChild(container);
     }
 }
-gerandoInfoAnime(ArrayPreviewAnime[2].nome);
 
-geradorPreviewAnime();
+loading();
 updateInfoAnime(ArrayPreviewAnime[0].nome);
