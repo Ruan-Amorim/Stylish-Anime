@@ -150,16 +150,18 @@ function gerandoInfoAnime(anime) {
         if (anime == "Kimetsu No Yaiba") {
             imagePersonagem.style.margin = "0 0";
             if (ArrayInfoPersonagens[anime].nome_personagem[x] == 'Nezuko Kamado') {
-                imagePersonagem.style.maxWidth = "80%";
-                imagePersonagem.style.right = "-15%";
                 if (window.innerWidth < 470) {
                     imagePersonagem.style.maxWidth = "100%";
                     imagePersonagem.style.right = "-15%";
+                } else {
+                    imagePersonagem.style.maxWidth = "80%";
+                    imagePersonagem.style.right = "-15%";
                 }
             } else if (ArrayInfoPersonagens[anime].nome_personagem[x] == 'Tanjiro Kamado') {
-                imagePersonagem.style.right = "-3%";
                 if (window.innerWidth < 470) {
                     imagePersonagem.style.right = "-5%";
+                } else {
+                    imagePersonagem.style.right = "-3%";
                 }
             }
         } else if (anime == "Konosuba") {
