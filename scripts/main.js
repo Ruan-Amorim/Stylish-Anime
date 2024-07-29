@@ -149,13 +149,18 @@ function gerandoInfoAnime(anime) {
 
         if (anime == "Kimetsu No Yaiba") {
             imagePersonagem.style.margin = "0 0";
+            if (ArrayInfoPersonagens[anime].nome_personagem[x] == 'Nezuko Kamado') {
+                imagePersonagem.style.maxWidth = "80%";
+                imagePersonagem.style.right = "-15%";
+            } else if (ArrayInfoPersonagens[anime].nome_personagem[x] == 'Tanjiro Kamado') {
+                imagePersonagem.style.right = "-3%";
+            }
         } else if (anime == "Konosuba") {
             if (ArrayInfoPersonagens[anime].img_personagem[x] != "midias/image/Konosuba/Kazuma.png") {
                 imagePersonagem.style.margin = "0 0";
-                if (ArrayInfoPersonagens[anime].img_personagem[x] == "img_personagem") {
-                    imagePersonagem.style.width = "100%";
-                }
-            } 
+            } else if (ArrayInfoPersonagens[anime].nome_personagem[x] == 'Megumin') {
+                imagePersonagem.style.maxWidth = "100%";
+            }
         } else {
             
         }
