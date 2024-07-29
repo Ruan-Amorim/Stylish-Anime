@@ -219,12 +219,19 @@ export const ArrayInfoPersonagens = {
         ],
     },
     "Kimetsu No Yaiba": {
-        "nome_personagem": ['Tanjiro Kamado', 'Zenitsu Agatsuma', 'Inosuke Hashibira', 'Kyojuro Rengoku'],
+        "nome_personagem": ['Tanjiro Kamado', 'Zenitsu Agatsuma', 'Inosuke Hashibira', 'Kyojuro Rengoku', 'Tengen', 'Giyu', 'Muichiro', 'Obanai', 'Mitsuri', 'Shinobu', 'Nezuko'],
         "img_personagem": [
             "midias/image/Kimetsu no Yaiba/Tanjiro.png",
             "midias/image/Kimetsu no Yaiba/Zenistu.png",
             "midias/image/Kimetsu no Yaiba/Inosuki.png",
-            "midias/image/Kimetsu no Yaiba/Rengoku.png"
+            "midias/image/Kimetsu no Yaiba/Rengoku.png",
+            "midias/image/Kimetsu no Yaiba/Tengen.png",
+            "midias/image/Kimetsu no Yaiba/Giyu.png",
+            "midias/image/Kimetsu no Yaiba/Muichiro.png",
+            "midias/image/Kimetsu no Yaiba/Obanai.png",
+            "midias/image/Kimetsu no Yaiba/Mitsuri.png",
+            "midias/image/Kimetsu no Yaiba/Shinobu.png",
+            "midias/image/Kimetsu no Yaiba/Nezuko.png"
         ],
         "texto_personagem": [
             'Tanjiro Kamado é o protagonista principal de Demon Slayer: Kimetsu no Yaiba . Ele é um Caçador de Demônios na Demon Slayer Corps que se juntou para encontrar um remédio para transformar sua irmã, Nezuko Kamado, de volta em humana e para caçar e matardemônios, e mais tarde jurou derrotarMuzan Kibutsuji, o Rei dos Demônios, a fim de evitar que outros sofressem o mesmo destino que ele. Antes de se tornar um Matador de Demônios, Tanjiro era um queimador de carvão antes de sua família ser massacrada por Muzan, enquanto sua irmã mais nova, Nezuko , foi transformada em um demônio.',
