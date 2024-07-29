@@ -152,8 +152,15 @@ function gerandoInfoAnime(anime) {
             if (ArrayInfoPersonagens[anime].nome_personagem[x] == 'Nezuko Kamado') {
                 imagePersonagem.style.maxWidth = "80%";
                 imagePersonagem.style.right = "-15%";
+                if (window.innerWidth < 470) {
+                    imagePersonagem.style.maxWidth = "100%";
+                    imagePersonagem.style.right = "-15%";
+                }
             } else if (ArrayInfoPersonagens[anime].nome_personagem[x] == 'Tanjiro Kamado') {
                 imagePersonagem.style.right = "-3%";
+                if (window.innerWidth < 470) {
+                    imagePersonagem.style.right = "-5%";
+                }
             }
         } else if (anime == "Konosuba") {
             if (ArrayInfoPersonagens[anime].img_personagem[x] != "midias/image/Konosuba/Kazuma.png") {
