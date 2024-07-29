@@ -2,28 +2,23 @@
 
 export const ArrayPreviewAnime = [
     {
-        "nome": "Bocchi The Rock",
-        "sinopse": "A história acompanha Hitori Gotou, uma garota sem amigos que está aprendendo a tocar guitarra para se tornar uma estrela do rock, mas é extremamente tímida. Por mais que seu sonho parecesse inalcançável, ela acaba por conhecer Nijika Ijichi, uma baterista que está a procura de uma guitarrista para sua banda, criando assim a oportunidade para Hitori entrar no mundo da música.",
-        "imagemPC": "https://images7.alphacoders.com/129/1296046.jpg",
-        "imagemCL": "https://images7.alphacoders.com/132/1323120.png",
+        "nome": "Kimetsu No Yaiba",
+        "sinopse": "Tanjiro, um bondoso jovem que ganha a vida vendendo carvão descobre que sua família foi massacrada por um demônio. E, para piorar, Nezuko, sua irmã mais nova e única sobrevivente, também acabou transformada em um demônio.",
+        "imagemPC": "https://moewalls.com/wp-content/uploads/2022/02/rengoku-and-tanjiro-fire-katana-kimetsu-no-yaiba-thumb.jpg",
+        "imagemCL": "https://wallpaper.forfun.com/fetch/31/3192bf5ae48e093fd9823082964a84d7.jpeg",
     },
     {
-        "nome": "Oshi no Ko",
-        "sinopse": "A história de Oshi no Ko acompanha, inicialmente, Gorou Honda, um ginecologista de um hospital na zona rural do Japão, que é um grande fã da idol Ai Hoshino. Ele fica perplexo quando a artista pausa a carreira, e mais ainda quando ela aparece em seu local de trabalho, grávida.",
-        "imagemPC": "https://moewalls.com/wp-content/uploads/2023/06/ai-hoshino-idol-oshi-no-ko-thumb.jpg",
-        "imagemCL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi_RXg3iilxIifhn4ENHc5glmh8HiTeiTM3A&s",
+        "nome": "Jujutsu Kaisen",
+        "sinopse": "Jujutsu Kaisen é uma jornada épica que começa com Yuji Itadori, um estudante colegial comum que tem sua vida transformada após um encontro fatídico com o sobrenatural. Quando Yuji acidentalmente liberta uma terrível maldição contida em um artefato amaldiçoado, ele se vê imerso em um mundo de trevas e perigo.",
+        "imagemPC": "https://i.pinimg.com/originals/77/7f/2e/777f2e91bb723e3f9580c87fb851c93f.jpg",
+        "imagemCL": "https://i.pinimg.com/736x/0c/c5/1c/0cc51cdb65226ccc4c54fb12291cf9ab.jpg",
     },
+    
     {
-        "nome": "Youkoso",
-        "sinopse": " A história de um garoto misterioso entra em um colégio de elite com sistema de ranks das classes e alunos. Mas embora não chame muita atenção, ele é muito mais do que parece.",
-        "imagemPC": "https://wallpaper.forfun.com/fetch/8a/8a32b6a93ee5f980398ca1c89c5abdc5.jpeg",
-        "imagemCL": "https://c4.wallpaperflare.com/wallpaper/691/648/922/anime-anime-girls-picture-in-picture-youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-horikita-suzune-hd-wallpaper-preview.jpg",
-    },
-    {
-        "nome": "Isekai de Cheat Skill",
-        "sinopse": "Por muitos anos Tenjo Yuuya sofreu com bullying pesado, até que certo dia encontrou uma porta no porão de seu avó capaz de levá-lo para outro mundo. Recebendo poderes inimagináveis e habilidades consideradas como trapaças, Yuuya passa a se aventurar nesse novo mundo, tentando deixar para trás sua vida de sofrimento e buscando ser alguém mais forte em ambas as realidades.",
-        "imagemPC": "https://wallpapercave.com/wp/wp13231037.jpg",
-        "imagemCL": "https://s1.zerochan.net/Isekai.de.Cheat.Skill.wo.Te.ni.Shita.Ore.wa.Genjitsu.Sekai.wo.mo.Musou.Suru%3A.Level.Up.wa.Jinsei.wo.Kaeta.600.3914522.jpg",
+        "nome": "Mushoku Tensei",
+        "sinopse": "Mushoku Tensei: segue a história de um homem de 34 anos que, após uma vida de fracassos, é reencarnado em um mundo de fantasia como um bebê chamado Rudeus Greyrat. Determinado a aproveitar sua segunda chance, ele decide mudar sua vida e se dedicar ao desenvolvimento de suas habilidades mágicas excepcionais.",
+        "imagemPC": "https://wallpaper.forfun.com/fetch/d3/d374fe163503d05842a7a202e0d15a44.jpeg",
+        "imagemCL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGlNYr_QcD2j1PHatME9PYmgpP0KVfTKGX3A&s",
     },
     {
         "nome": "Konosuba",
@@ -32,10 +27,28 @@ export const ArrayPreviewAnime = [
         "imagemCL": "https://wallpapercave.com/wp/wp6289793.jpg",
     },
     {
-        "nome": "Kimetsu No Yaiba",
-        "sinopse": "Tanjiro, um bondoso jovem que ganha a vida vendendo carvão descobre que sua família foi massacrada por um demônio. E, para piorar, Nezuko, sua irmã mais nova e única sobrevivente, também acabou transformada em um demônio.",
-        "imagemPC": "https://moewalls.com/wp-content/uploads/2022/02/rengoku-and-tanjiro-fire-katana-kimetsu-no-yaiba-thumb.jpg",
-        "imagemCL": "https://wallpaper.forfun.com/fetch/31/3192bf5ae48e093fd9823082964a84d7.jpeg",
+        "nome": "Youkoso",
+        "sinopse": " A história de um garoto misterioso entra em um colégio de elite com sistema de ranks das classes e alunos. Mas embora não chame muita atenção, ele é muito mais do que parece.",
+        "imagemPC": "https://wallpaper.forfun.com/fetch/8a/8a32b6a93ee5f980398ca1c89c5abdc5.jpeg",
+        "imagemCL": "https://c4.wallpaperflare.com/wallpaper/691/648/922/anime-anime-girls-picture-in-picture-youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-horikita-suzune-hd-wallpaper-preview.jpg",
+    },
+    {
+        "nome": "Oshi no Ko",
+        "sinopse": "A história de Oshi no Ko acompanha, inicialmente, Gorou Honda, um ginecologista de um hospital na zona rural do Japão, que é um grande fã da idol Ai Hoshino. Ele fica perplexo quando a artista pausa a carreira, e mais ainda quando ela aparece em seu local de trabalho, grávida.",
+        "imagemPC": "https://moewalls.com/wp-content/uploads/2023/06/ai-hoshino-idol-oshi-no-ko-thumb.jpg",
+        "imagemCL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi_RXg3iilxIifhn4ENHc5glmh8HiTeiTM3A&s",
+    },
+    {
+        "nome": "Bocchi The Rock",
+        "sinopse": "A história acompanha Hitori Gotou, uma garota sem amigos que está aprendendo a tocar guitarra para se tornar uma estrela do rock, mas é extremamente tímida. Por mais que seu sonho parecesse inalcançável, ela acaba por conhecer Nijika Ijichi, uma baterista que está a procura de uma guitarrista para sua banda, criando assim a oportunidade para Hitori entrar no mundo da música.",
+        "imagemPC": "https://images7.alphacoders.com/129/1296046.jpg",
+        "imagemCL": "https://images7.alphacoders.com/132/1323120.png",
+    },
+    {
+        "nome": "Isekai de Cheat Skill",
+        "sinopse": "Por muitos anos Tenjo Yuuya sofreu com bullying pesado, até que certo dia encontrou uma porta no porão de seu avó capaz de levá-lo para outro mundo. Recebendo poderes inimagináveis e habilidades consideradas como trapaças, Yuuya passa a se aventurar nesse novo mundo, tentando deixar para trás sua vida de sofrimento e buscando ser alguém mais forte em ambas as realidades.",
+        "imagemPC": "https://wallpapercave.com/wp/wp13231037.jpg",
+        "imagemCL": "https://s1.zerochan.net/Isekai.de.Cheat.Skill.wo.Te.ni.Shita.Ore.wa.Genjitsu.Sekai.wo.mo.Musou.Suru%3A.Level.Up.wa.Jinsei.wo.Kaeta.600.3914522.jpg",
     },
     {
         "nome": "Kenka Dokugaku",
@@ -43,15 +56,27 @@ export const ArrayPreviewAnime = [
         "imagemPC": "https://pbs.twimg.com/media/GK45V32W0AEY29w.jpg",
         "imagemCL": "https://pbs.twimg.com/media/GK45V32W0AEY29w.jpg",
     },
-    {
-        "nome": "Mushoku Tensei",
-        "sinopse": "Mushoku Tensei: segue a história de um homem de 34 anos que, após uma vida de fracassos, é reencarnado em um mundo de fantasia como um bebê chamado Rudeus Greyrat. Determinado a aproveitar sua segunda chance, ele decide mudar sua vida e se dedicar ao desenvolvimento de suas habilidades mágicas excepcionais.",
-        "imagemPC": "https://wallpaper.forfun.com/fetch/d3/d374fe163503d05842a7a202e0d15a44.jpeg",
-        "imagemCL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGlNYr_QcD2j1PHatME9PYmgpP0KVfTKGX3A&s",
-    },
 ];
 
 export const ArrayInfoAnimes = {
+    "Jujutsu Kaisen": {
+        "image_capa": "midias/image/Jujutsu Kaisen/image_capa.jpeg",
+        "nome_capa": "Jujutsu",
+        "nome_anime": "Nome: Jujutsu Kaisen",
+        "estrou": "Estreou: Outono 2020",
+        "fonte": "Fonte: Mangá",
+        "genero": "Gêneros: Ação, Premiado, Fantasia,",
+        "temas": "Temas: Escola",
+        "produtores": "Produtores: Mainichi, Broadcasting System, TOHO, animation, Shueisha, dugout, Sumzap",
+        "estudios": "Estúdios: MAPA",
+        "titulo": "Jujutsu Kaisen",
+        "sinopse": "Jujutsu Kaisen segue Yuji Itadori, um estudante que, após consumir um talismã amaldiçoado, entra para o mundo das maldições. Ele se une ao Jujutsu High para lutar contra essas ameaças e proteger o mundo. Com habilidades inesperadas, Yuji enfrenta perigos sobrenaturais e busca compreender seus novos poderes.<br><br> A série explora temas de coragem e amizade, enquanto Yuji e seus amigos enfrentam desafios e lutam para encontrar justiça no combate às maldições.",
+        "score": "8.59",
+        "users": "1.714.726 users",
+        "image_protagonista": "midias/image/Jujutsu Kaisen/image_prota.jpeg",
+        "nome_protagonista": "Itadori",
+        "texto_protagonista": 'Yuji Itadori é o protagonista de Jujutsu Kaisen. Após ingerir um talismã amaldiçoado, ele entra para o mundo das maldições e se junta ao Jujutsu High. Com habilidades inesperadas e uma coragem notável, Yuji enfrenta diversas ameaças sobrenaturais, buscando entender e controlar seus poderes. Sua determinação e empatia o destacam, enquanto ele luta para proteger os outros e encontrar justiça em um mundo perigoso e cheio de desafios.',
+    },
     "Mushoku Tensei": {
         "image_capa": "midias/image/Mushoku Tensei/image_capa.jpeg",
         "nome_capa": "Mushoku",
@@ -199,6 +224,30 @@ export const ArrayInfoAnimes = {
 }
 
 export const ArrayInfoPersonagens = {
+    "Jujutsu Kaisen": {
+        "nome_personagem": ['Yuji Itadori','Megumi Fushiguro','Nobara Kugisaki','Yuta','Gojo'],
+        "img_personagem": [
+            "midias/image/Jujutsu Kaisen/Itadori.png",
+            "midias/image/Jujutsu Kaisen/Megumi.png",
+            "midias/image/Jujutsu Kaisen/Nobara.png",
+            "midias/image/Jujutsu Kaisen/Yuta.png",
+            "midias/image/Jujutsu Kaisen/Gojo.png",
+        ],
+        "texto_personagem": [
+            'Yuji Itadori é o protagonista de Jujutsu Kaisen. Um jovem estudante do ensino médio, Yuji é arrastado para o mundo das maldições depois de ingerir um talismã amaldiçoado, o dedo de Sukuna. Com uma força física impressionante e uma determinação inabalável, ele se junta ao Jujutsu High para combater maldições e aprender a controlar seus novos poderes. Sua coragem e empatia o destacam enquanto enfrenta desafios sobrenaturais e busca proteger aqueles que ama.',
+            'Megumi Fushiguro é um dos principais personagens de Jujutsu Kaisen. Estudante do Jujutsu High, ele é conhecido por suas habilidades excepcionais em manipulação de sombras e seu estilo de combate estratégico. Apesar de sua atitude reservada e séria, Megumi é profundamente leal aos seus amigos e possui um forte senso de justiça. Ele luta para proteger o mundo das maldições e superar seus próprios desafios pessoais.',
+            'Nobara Kugisaki é uma das protagonistas de Jujutsu Kaisen. Ela é uma estudante do Jujutsu High, conhecida por sua personalidade destemida e habilidades em manipulação de maldições com seu martelo e pregos. Nobara combina uma atitude confiante com uma forte determinação, lutando ao lado de seus amigos para enfrentar ameaças sobrenaturais. Sua coragem e espírito independente fazem dela uma aliada poderosa no combate às maldições.',
+            'Yuta Okkotsu é um personagem importante de Jujutsu Kaisen. Inicialmente um estudante de primeiro ano com uma força incomum devido à maldição de Rika, ele se torna um dos mais poderosos usuários de Jujutsu. Yuta é conhecido por sua habilidade em combate e seu desejo de proteger os outros. Sua jornada de auto-descoberta e controle de seus poderes é central para a trama, mostrando sua evolução e crescimento como feiticeiro.',
+            'Satoru Gojo é um dos personagens principais de Jujutsu Kaisen. Ele é um professor do Jujutsu High e um dos feiticeiros mais poderosos da série, conhecido por suas habilidades impressionantes e seu domínio das técnicas de Jujutsu. Gojo combina um estilo de combate formidável com uma personalidade carismática e um senso de humor irreverente. Seu papel crucial é guiar e proteger seus alunos enquanto enfrenta maldições e ameaças sobrenaturais.',
+        ],
+        "color_personagem": [ 
+            "rgba(255, 105, 97, 0.9) 0%, rgba(255, 80, 70, 0.9) 50%, rgba(255, 105, 97, 0.9) 100%",
+            "rgba(60, 60, 60, 0.9) 0%, rgba(40, 40, 40, 0.9) 50%, rgba(60, 60, 60, 0.9) 100%",
+            "rgba(255, 140, 0, 0.9) 0%, rgba(255, 100, 0, 0.9) 50%, rgba(255, 140, 0, 0.9) 100%",
+            "rgba(0, 102, 204, 0.9) 0%, rgba(0, 80, 160, 0.9) 50%, rgba(0, 102, 204, 0.9) 100%",
+            "rgba(0, 0, 255, 0.9) 0%, rgba(0, 0, 180, 0.9) 50%, rgba(0, 0, 255, 0.9) 100%",
+        ],
+    },
     "Mushoku Tensei": {
         "nome_personagem": ['Rudeus Greyrat', 'Eris Boreas Greyrat', 'Roxy Migurdia', 'Ghislaine Dedoldia', 'Ruijerdi Jamil'],
         "img_personagem": [
