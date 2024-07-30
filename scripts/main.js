@@ -33,7 +33,7 @@ function geradorPreviewAnime() {
             <h2>${ArrayPreviewAnime[x].nome}</h2>
             <p>${ArrayPreviewAnime[x].sinopse}</p>`;
         if (window.innerWidth <= 500) {
-            li.style.backgroundImage = `url("${encodeURI(ArrayPreviewAnime[x].imagemCL)}")`;
+            li.style.backgroundImage = `url("${encodeURI(ArrayPreviewAnime[x].imagemPC)}")`;
         } else {
             li.style.backgroundImage = `url("${encodeURI(ArrayPreviewAnime[x].imagemPC)}")`;
         }
@@ -57,7 +57,7 @@ function loading() {
     ulContainerPlayerAnimes.innerHTML = ''
     geradorPreviewAnime();
     if (window.innerWidth <= 500) {
-        bloco1.style.backgroundImage = `url("${encodeURI(ArrayPreviewAnime[0].imagemCL)}")`;
+        bloco1.style.backgroundImage = `url("${encodeURI(ArrayPreviewAnime[0].imagemPC)}")`;
     } else {
         bloco1.style.backgroundImage = `url("${encodeURI(ArrayPreviewAnime[0].imagemPC)}")`;
     }
