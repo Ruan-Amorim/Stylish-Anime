@@ -22,7 +22,7 @@ export const ArrayPreviewAnime = [
     {
         "nome": "Boku no Hero",
         "sinopse": "Em um mundo onde quase toda a população possui algum poder sobre-humano, Izuku Midoriya é um dos poucos casos de pessoas comuns. Mas esse não é o maior de seus problemas. Exatamente por ser desprovido de qualquer poder, Izuku sofre constantemente nas mãos de seus colegas de classe.",
-        "imagemPC": "https://i.pinimg.com/736x/e9/06/d9/e906d9a074046b8a723cf8ac6812cc44.jpg",
+        "imagemPC": "https://sm.ign.com/ign_br/guide/h/how-to-wat/how-to-watch-my-hero-academia-season-7-episode-release-sched_3pgh.jpg",
         "imagemCL": "https://images.justwatch.com/poster/261483319/s718/boku-no-hero-academia.jpg",
     },
     {
@@ -34,7 +34,7 @@ export const ArrayPreviewAnime = [
     {
         "nome": "Dr. Stone",
         "sinopse": "Quando tudo já parecia completamente perdido e a humanidade não teria mais salvação, Senku, um gênio, tenta restaurar o que ainda resta do mundo e faz de tudo para salvar os humanos após uma luz misteriosa petrificar todos.",
-        "imagemPC": "https://images3.alphacoders.com/131/thumb-1920-1319747.jpeg",
+        "imagemPC": "https://images7.alphacoders.com/133/1334083.png",
         "imagemCL": "https://e1.pxfuel.com/desktop-wallpaper/134/22/desktop-wallpaper-senku-dr-stone-dr-stone-mobile.jpg",
     },
     {
