@@ -10,14 +10,14 @@ export const ArrayPreviewAnime = [
     {
         "nome": "Jujutsu Kaisen",
         "sinopse": "Jujutsu Kaisen é uma jornada épica que começa com Yuji Itadori, um estudante colegial comum que tem sua vida transformada após um encontro fatídico com o sobrenatural. Quando Yuji acidentalmente liberta uma terrível maldição contida em um artefato amaldiçoado, ele se vê imerso em um mundo de trevas e perigo.",
-        "imagemPC": "https://i.pinimg.com/originals/77/7f/2e/777f2e91bb723e3f9580c87fb851c93f.jpg",
-        "imagemCL": "https://i.pinimg.com/736x/0c/c5/1c/0cc51cdb65226ccc4c54fb12291cf9ab.jpg",
+        "imagemPC": "https://wallpapers-clan.com/wp-content/uploads/2024/02/jujutsu-kaisen-sukuna-anime-desktop-wallpaper-preview.jpg",
+        "imagemCL": "https://image.winudf.com/v2/image1/Y29tLmtpcml0by5hcHAud2FsbHBhcGVyLmp1anV0c3VrYWlzZW5fc2NyZWVuXzZfMTYyMDg3NTI3N18wMDk/screen-6.jpg?fakeurl=1&type=.jpg",
     },
     {
         "nome": "Mushoku Tensei",
         "sinopse": "Mushoku Tensei: segue a história de um homem de 34 anos que, após uma vida de fracassos, é reencarnado em um mundo de fantasia como um bebê chamado Rudeus Greyrat. Determinado a aproveitar sua segunda chance, ele decide mudar sua vida e se dedicar ao desenvolvimento de suas habilidades mágicas excepcionais.",
         "imagemPC": "https://wallpaper.forfun.com/fetch/d3/d374fe163503d05842a7a202e0d15a44.jpeg",
-        "imagemCL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGlNYr_QcD2j1PHatME9PYmgpP0KVfTKGX3A&s",
+        "imagemCL": "https://s1.zerochan.net/Mushoku.Tensei%3A.Isekai.Ittara.Honki.Dasu.600.3582547.jpg",
     },
     {
         "nome": "Boku no Hero",
@@ -29,7 +29,7 @@ export const ArrayPreviewAnime = [
         "nome": "Re: Zero",
         "sinopse": "Subaru Natsuki, um adolescente do ensino médio, é invocado de repente para um outro mundo enquanto voltava de uma loja de conveniência. Essa seria a tão famosa invocação a um outro mundo?! No entanto, ele não encontrou a pessoa que o invocou, foi atacado por ladrões e correu risco de vida.",
         "imagemPC": "https://wallpapers.com/images/hd/hd-natsuki-e-rem-of-red-zero-e03abva5w2fb3btb.jpg",
-        "imagemCL": "https://c4.wallpaperflare.com/wallpaper/768/247/699/anime-girls-re-zero-kara-hajimeru-isekai-seikatsu-rem-re-zero-wallpaper-preview.jpg",
+        "imagemCL": "https://w0.peakpx.com/wallpaper/470/892/HD-wallpaper-re-zero-2nd-season-emilia-rem-rezero-second-season-subaru-thumbnail.jpg",
     },
     {
         "nome": "Dr. Stone",
@@ -41,7 +41,7 @@ export const ArrayPreviewAnime = [
         "nome": "Black Clover",
         "sinopse": 'Dois orfãos, Asta e Yuno, foram criados em uma igreja no reino de Clover. Asta nasceu sem poderes mágicos, mas Yuno nasceu como prodígio. Carregado de frustração, certo dia Asta encontra um poder chamado "anti magia" e cria uma rivalidade não intencional com seu próprio irmão.',
         "imagemPC": "https://4kwallpapers.com/images/wallpapers/asta-black-clover-3840x1080-12455.jpeg",
-        "imagemCL": "https://4kwallpapers.com/images/wallpapers/asta-black-clover-3840x1080-12455.jpeg",
+        "imagemCL": "https://i.pinimg.com/736x/09/cf/07/09cf07dc4f577a37cd7a7ea45609fc72.jpg",
     },
     {
         "nome": "Konosuba",
@@ -53,19 +53,19 @@ export const ArrayPreviewAnime = [
         "nome": "Youkoso",
         "sinopse": " A história de um garoto misterioso entra em um colégio de elite com sistema de ranks das classes e alunos. Mas embora não chame muita atenção, ele é muito mais do que parece.",
         "imagemPC": "https://wallpaper.forfun.com/fetch/8a/8a32b6a93ee5f980398ca1c89c5abdc5.jpeg",
-        "imagemCL": "https://c4.wallpaperflare.com/wallpaper/691/648/922/anime-anime-girls-picture-in-picture-youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-horikita-suzune-hd-wallpaper-preview.jpg",
+        "imagemCL": "https://e1.pxfuel.com/desktop-wallpaper/810/330/desktop-wallpaper-youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-anime-classroom-of-the-elite.jpg",
     },
     {
         "nome": "Oshi no Ko",
         "sinopse": "A história de Oshi no Ko acompanha, inicialmente, Gorou Honda, um ginecologista de um hospital na zona rural do Japão, que é um grande fã da idol Ai Hoshino. Ele fica perplexo quando a artista pausa a carreira, e mais ainda quando ela aparece em seu local de trabalho, grávida.",
         "imagemPC": "https://moewalls.com/wp-content/uploads/2023/06/ai-hoshino-idol-oshi-no-ko-thumb.jpg",
-        "imagemCL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi_RXg3iilxIifhn4ENHc5glmh8HiTeiTM3A&s",
+        "imagemCL": "https://i.pinimg.com/736x/63/86/b3/6386b3140396509d4f371c9d415a7d04.jpg",
     },
     {
         "nome": "Bocchi The Rock",
         "sinopse": "A história acompanha Hitori Gotou, uma garota sem amigos que está aprendendo a tocar guitarra para se tornar uma estrela do rock, mas é extremamente tímida. Por mais que seu sonho parecesse inalcançável, ela acaba por conhecer Nijika Ijichi, uma baterista que está a procura de uma guitarrista para sua banda, criando assim a oportunidade para Hitori entrar no mundo da música.",
         "imagemPC": "https://images7.alphacoders.com/129/1296046.jpg",
-        "imagemCL": "https://images7.alphacoders.com/132/1323120.png",
+        "imagemCL": "https://c.wallhere.com/photos/80/5a/BOCCHI_THE_ROCK_anime_girls-2205947.jpg!d",
     },
     {
         "nome": "Isekai de Cheat Skill",

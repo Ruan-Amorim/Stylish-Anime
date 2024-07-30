@@ -32,7 +32,11 @@ function geradorPreviewAnime() {
         li.innerHTML = `
             <h2>${ArrayPreviewAnime[x].nome}</h2>
             <p>${ArrayPreviewAnime[x].sinopse}</p>`;
-        li.style.backgroundImage = `url("${encodeURI(ArrayPreviewAnime[x].imagemPC)}")`;
+        if (window.innerWidth <= 500) {
+            li.style.backgroundImage = `url("${encodeURI(ArrayPreviewAnime[x].imagemCL)}")`;
+        } else {
+            li.style.backgroundImage = `url("${encodeURI(ArrayPreviewAnime[x].imagemPC)}")`;
+        }
         li.setAttribute('onclick', `AnimeClick("${ArrayPreviewAnime[x].nome}")`); 
     
         ulContainerPlayerAnimes.appendChild(li);
