@@ -52,7 +52,11 @@ window.AnimeClick = function AnimeClick(Anime){
 function loading() {
     ulContainerPlayerAnimes.innerHTML = ''
     geradorPreviewAnime();
-    bloco1.style.backgroundImage = `url("${encodeURI(ArrayPreviewAnime[0].imagemPC)}")`;
+    if (window.innerWidth <= 500) {
+        bloco1.style.backgroundImage = `url("${encodeURI(ArrayPreviewAnime[0].imagemCL)}")`;
+    } else {
+        bloco1.style.backgroundImage = `url("${encodeURI(ArrayPreviewAnime[0].imagemPC)}")`;
+    }
     updateInfoAnime(ArrayPreviewAnime[0].nome);
 }
 
