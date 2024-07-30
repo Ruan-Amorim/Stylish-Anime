@@ -13,12 +13,35 @@ export const ArrayPreviewAnime = [
         "imagemPC": "https://i.pinimg.com/originals/77/7f/2e/777f2e91bb723e3f9580c87fb851c93f.jpg",
         "imagemCL": "https://i.pinimg.com/736x/0c/c5/1c/0cc51cdb65226ccc4c54fb12291cf9ab.jpg",
     },
-    
     {
         "nome": "Mushoku Tensei",
         "sinopse": "Mushoku Tensei: segue a história de um homem de 34 anos que, após uma vida de fracassos, é reencarnado em um mundo de fantasia como um bebê chamado Rudeus Greyrat. Determinado a aproveitar sua segunda chance, ele decide mudar sua vida e se dedicar ao desenvolvimento de suas habilidades mágicas excepcionais.",
         "imagemPC": "https://wallpaper.forfun.com/fetch/d3/d374fe163503d05842a7a202e0d15a44.jpeg",
         "imagemCL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGlNYr_QcD2j1PHatME9PYmgpP0KVfTKGX3A&s",
+    },
+    {
+        "nome": "Boku no Hero",
+        "sinopse": "Em um mundo onde quase toda a população possui algum poder sobre-humano, Izuku Midoriya é um dos poucos casos de pessoas comuns. Mas esse não é o maior de seus problemas. Exatamente por ser desprovido de qualquer poder, Izuku sofre constantemente nas mãos de seus colegas de classe.",
+        "imagemPC": "https://i.pinimg.com/736x/e9/06/d9/e906d9a074046b8a723cf8ac6812cc44.jpg",
+        "imagemCL": "https://images.justwatch.com/poster/261483319/s718/boku-no-hero-academia.jpg",
+    },
+    {
+        "nome": "Re: Zero",
+        "sinopse": "Subaru Natsuki, um adolescente do ensino médio, é invocado de repente para um outro mundo enquanto voltava de uma loja de conveniência. Essa seria a tão famosa invocação a um outro mundo?! No entanto, ele não encontrou a pessoa que o invocou, foi atacado por ladrões e correu risco de vida.",
+        "imagemPC": "https://wallpapers.com/images/hd/hd-natsuki-e-rem-of-red-zero-e03abva5w2fb3btb.jpg",
+        "imagemCL": "https://c4.wallpaperflare.com/wallpaper/768/247/699/anime-girls-re-zero-kara-hajimeru-isekai-seikatsu-rem-re-zero-wallpaper-preview.jpg",
+    },
+    {
+        "nome": "Dr. Stone",
+        "sinopse": "Quando tudo já parecia completamente perdido e a humanidade não teria mais salvação, Senku, um gênio, tenta restaurar o que ainda resta do mundo e faz de tudo para salvar os humanos após uma luz misteriosa petrificar todos.",
+        "imagemPC": "https://images3.alphacoders.com/131/thumb-1920-1319747.jpeg",
+        "imagemCL": "https://e1.pxfuel.com/desktop-wallpaper/134/22/desktop-wallpaper-senku-dr-stone-dr-stone-mobile.jpg",
+    },
+    {
+        "nome": "Black Clover",
+        "sinopse": 'Dois orfãos, Asta e Yuno, foram criados em uma igreja no reino de Clover. Asta nasceu sem poderes mágicos, mas Yuno nasceu como prodígio. Carregado de frustração, certo dia Asta encontra um poder chamado "anti magia" e cria uma rivalidade não intencional com seu próprio irmão.',
+        "imagemPC": "https://4kwallpapers.com/images/wallpapers/asta-black-clover-3840x1080-12455.jpeg",
+        "imagemCL": "https://4kwallpapers.com/images/wallpapers/asta-black-clover-3840x1080-12455.jpeg",
     },
     {
         "nome": "Konosuba",
