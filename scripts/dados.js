@@ -21,13 +21,13 @@ export const ArrayPreviewAnime = [
     {
         "nome": "Boku no Hero",
         "sinopse": "Em um mundo onde quase toda a população possui algum poder sobre-humano, Izuku Midoriya é um dos poucos casos de pessoas comuns. Mas esse não é o maior de seus problemas. Exatamente por ser desprovido de qualquer poder, Izuku sofre constantemente nas mãos de seus colegas de classe.",
-        "imagemPC": "https://sm.ign.com/ign_br/guide/h/how-to-wat/how-to-watch-my-hero-academia-season-7-episode-release-sched_3pgh.jpg",
+        "imagemPC": "https://cdn.wallpapersafari.com/10/77/JprK2V.jpg",
         "imagemCL": "https://images.justwatch.com/poster/261483319/s718/boku-no-hero-academia.jpg",
     },
     {
         "nome": "Re: Zero",
         "sinopse": "Subaru Natsuki, um adolescente do ensino médio, é invocado de repente para um outro mundo enquanto voltava de uma loja de conveniência. Essa seria a tão famosa invocação a um outro mundo?! No entanto, ele não encontrou a pessoa que o invocou, foi atacado por ladrões e correu risco de vida.",
-        "imagemPC": "https://wallpapers.com/images/hd/hd-natsuki-e-rem-of-red-zero-e03abva5w2fb3btb.jpg",
+        "imagemPC": "https://images8.alphacoders.com/937/937997.png",
         "imagemCL": "https://w0.peakpx.com/wallpaper/470/892/HD-wallpaper-re-zero-2nd-season-emilia-rem-rezero-second-season-subaru-thumbnail.jpg",
     },
     {
@@ -318,6 +318,87 @@ export const ArrayInfoAnimes = {
 }
 
 export const ArrayInfoPersonagens = {
+    "Black Clover": {
+        "nome_personagem": ['Asta', 'Yuno', 'Noelle Silva', 'Julius Novachrono', 'Yami','William Vangeance','finral roulacase', 'Luck Voltia', 'Vanessa Enoteca', 'Magna swing',],
+        "img_personagem": [
+            "midias/image/Black Clover/Asta.png",
+            "midias/image/Black Clover/Yuno.png",
+            "midias/image/Black Clover/Noelle_Silva.png",
+            "midias/image/Black Clover/Julius_Novachrono.png",
+            "midias/image/Black Clover/Yami.png",
+            "midias/image/Black Clover/Willliam.png",
+            "midias/image/Black Clover/finral_roulacase.png",
+            "midias/image/Black Clover/Luck_Voltia.png",
+            "midias/image/Black Clover/Vanessa_Enoteca.png",
+            "midias/image/Black Clover/magna_swing.png",
+        ],
+        "texto_personagem": [
+            'Asta é o protagonista de "Black Clover". Sem nenhum poder mágico em um mundo onde a magia é tudo, ele se esforça para se tornar o Wizard King. Determinado e enérgico, Asta treina arduamente para superar suas limitações e provar seu valor. Sua força de vontade inabalável e lealdade aos amigos são os pilares de sua jornada para conquistar seu sonho e proteger o reino.',
+            'Yuno é um dos protagonistas de "Black Clover". Rival e amigo de Asta, ele é um prodígio mágico com habilidades excepcionais. Desde jovem, Yuno demonstra um controle impressionante sobre a magia e um desejo ardente de se tornar o Wizard King. Sua dedicação e habilidade são visíveis em sua busca para superar os desafios e alcançar seu objetivo ao lado de Asta.', 
+            'Noelle Silva é uma personagem de "Black Clover". Ela é uma membro da nobre família Silva e possui um grande potencial mágico, embora inicialmente tenha dificuldades em controlá-lo. Ao longo da série, Noelle trabalha para dominar sua magia e superar suas inseguranças, mostrando crescimento e determinação em sua jornada para se tornar uma poderosa maga.',
+            'Julius Novachrono é um personagem de "Black Clover". Ele é o Wizard King e possui habilidades mágicas excepcionais, especialmente no controle do tempo. Com uma personalidade carismática e um forte senso de justiça, Julius guia e inspira os cavaleiros mágicos em suas missões. Seu papel como líder é crucial para a proteção e progresso do reino.',
+            'Yami Sukehiro é um personagem de "Black Clover". Ele é o capitão do Black Bulls e é conhecido por sua força impressionante e habilidades em combate. Yami tem uma atitude desafiadora e um estilo de liderança não convencional, mas seu senso de responsabilidade e dedicação aos seus membros são evidentes enquanto ele os orienta para enfrentar grandes desafios.',
+            'William Vangeance é um personagem de "Black Clover". Ele é o capitão dos Golden Dawn e é conhecido por sua magia de criação poderosa. William é um líder respeitado e dedicado, com um desejo de proteger o reino e apoiar seus membros. Sua presença é fundamental para o equilíbrio e sucesso da equipe em suas missões.',
+            'Finral Roulacase é um personagem de "Black Clover". Ele é um membro do Black Bulls e possui a habilidade de teletransporte. Inicialmente visto como um membro frouxo e desleixado, Finral demonstra crescimento pessoal e compromisso com seus amigos e suas responsabilidades ao longo da série, utilizando suas habilidades de maneira eficaz.',
+            'Luck Voltia é um personagem de "Black Clover". Ele é um membro do Black Bulls e possui uma magia voltada para eletricidade. Conhecido por sua personalidade energética e entusiasmo, Luck é um combatente feroz e leal aos seus companheiros. Sua habilidade e determinação são cruciais nas batalhas e nas missões da equipe.',
+            'Vanessa Enoteca é uma personagem de "Black Clover". Ela é uma membro do Black Bulls e possui uma magia relacionada à manipulação de fios e sorte. Vanessa é conhecida por sua personalidade calma e um pouco desleixada, mas sua habilidade e apoio são valiosos para a equipe. Ela desempenha um papel importante na proteção e sucesso das missões.',
+            'Magna Swing é um personagem de "Black Clover". Ele é um membro do Black Bulls e utiliza magia de fogo em combate. Com uma atitude animada e um espírito combativo, Magna é dedicado aos seus amigos e à equipe. Sua habilidade em batalha e sua lealdade são vitais para enfrentar os desafios e proteger o reino.'
+        ],
+        "color_personagem": [ 
+            "rgba(0, 0, 0, 0.9) 0%, rgba(50, 50, 50, 0.9) 50%, rgba(0, 0, 0, 0.9) 100%",
+            "rgba(0, 0, 255, 0.9) 0%, rgba(100, 100, 255, 0.9) 50%, rgba(0, 0, 255, 0.9) 100%",
+            "rgba(200, 200, 255, 0.9) 0%, rgba(220, 220, 255, 0.9) 50%, rgba(200, 200, 255, 0.9) 100%",
+            "rgba(100, 100, 255, 0.9) 0%, rgba(150, 150, 255, 0.9) 50%, rgba(100, 100, 255, 0.9) 100%",
+            "rgba(0, 0, 0, 0.9) 0%, rgba(30, 30, 30, 0.9) 50%, rgba(0, 0, 0, 0.9) 100%",
+            "rgba(100, 150, 50, 0.9) 0%, rgba(150, 200, 70, 0.9) 50%, rgba(100, 150, 50, 0.9) 100%",
+            "rgba(100, 100, 200, 0.9) 0%, rgba(150, 150, 255, 0.9) 50%, rgba(100, 100, 200, 0.9) 100%",
+            "rgba(200, 150, 50, 0.9) 0%, rgba(255, 200, 70, 0.9) 50%, rgba(200, 150, 50, 0.9) 100%",
+            "rgba(200, 100, 200, 0.9) 0%, rgba(220, 120, 220, 0.9) 50%, rgba(200, 100, 200, 0.9) 100%",
+            "rgba(255, 100, 0, 0.9) 0%, rgba(255, 150, 50, 0.9) 50%, rgba(255, 100, 0, 0.9) 100%",
+        ],
+    },
+    "Dr. Stone": {
+        "nome_personagem": ['Senku', 'Taiju Oki', 'Tsukasa Shishio', 'Yuzuriha Ogawa', 'Kohaku','Chrome','Gen Asagiri', 'Suika', 'Ryusui Nanami', 'Homura Momiji ','Hyoga'],
+        "img_personagem": [
+            "midias/image/Dr. Stone/Senku.png",
+            "midias/image/Dr. Stone/Taiju_Oki.png",
+            "midias/image/Dr. Stone/Tsukasa_Shishio.png",
+            "midias/image/Dr. Stone/Yuzuriha.png",
+            "midias/image/Dr. Stone/Kohaku.png",
+            "midias/image/Dr. Stone/Chrome.png",
+            "midias/image/Dr. Stone/Gen_Asagiri.png",
+            "midias/image/Dr. Stone/Suika.png",
+            "midias/image/Dr. Stone/Ryusui.png",
+            "midias/image/Dr. Stone/Homura_Momiji.png",
+            "midias/image/Dr. Stone/Hyoga.png"
+        ],
+        "texto_personagem": [
+            'Senku Ishigami é o protagonista de "Dr. Stone". Após a misteriosa petrificação da humanidade, ele acorda milhares de anos depois e se dedica a reconstruir a civilização com seu vasto conhecimento científico. Inteligente e determinado, Senku lidera esforços para reverter a petrificação e restaurar a tecnologia. Sua paixão pela ciência e sua habilidade de resolver problemas são centrais para sua jornada em um mundo primitivo.',
+            'Taiju Oki é um dos personagens principais de "Dr. Stone". Ele é o melhor amigo de Senku e é conhecido por sua força física e determinação. Após a petrificação global, Taiju se junta a Senku em sua missão para reconstruir a civilização. Sua lealdade e coragem são evidentes enquanto ele enfrenta desafios e ajuda a avançar a ciência com um espírito inabalável e um desejo de proteger aqueles ao seu redor.', 
+            'Tsukasa Shishio é um antagonista de "Dr. Stone". Após a petrificação, ele deseja criar uma nova sociedade sem os adultos que considera corruptos. Com força física impressionante e habilidades de combate, Tsukasa se opõe a Senku e busca construir uma nova ordem mundial. Seu objetivo e métodos refletem um conflito moral profundo sobre o futuro da humanidade e as mudanças necessárias.',
+            'Yuzuriha Ogawa é uma personagem de "Dr. Stone". Ela é uma amiga de Senku e Taiju, conhecida por sua habilidade em artesanato e seu papel crucial na reconstrução da civilização. Após a petrificação, Yuzuriha se junta a Senku na jornada para restaurar a humanidade. Sua determinação e criatividade são essenciais para o progresso da equipe enquanto eles enfrentam desafios e buscam soluções científicas.',
+            'Kohaku é uma personagem de "Dr. Stone". Ela é uma jovem guerreira da aldeia de Ishigami e é conhecida por sua habilidade de combate e lealdade. Ao conhecer Senku, Kohaku se une a ele na missão de reconstruir a civilização, utilizando suas habilidades de luta e conhecimento sobre a vida primitiva. Sua coragem e determinação são vitais para a equipe na busca por soluções para os desafios que enfrentam.',
+            'Chrome é um personagem de "Dr. Stone". Ele é um jovem cientista da aldeia de Ishigami e é conhecido por seu entusiasmo e habilidades em química. Ao se unir a Senku, Chrome ajuda na reconstrução da civilização com suas invenções e experimentos. Sua curiosidade e desejo de aprender são fundamentais para o avanço da ciência na nova era e para resolver os desafios que surgem.',
+            'Gen Asagiri é um personagem de "Dr. Stone". Ele é um charlatão que se junta a Senku em sua missão de reconstruir a civilização após a petrificação. Gen é conhecido por suas habilidades de persuasão e sua capacidade de ler as pessoas. Sua astúcia e conhecimento social são importantes para ajudar Senku a lidar com os diversos desafios e manipulações ao longo de sua jornada.',
+            'Suika é uma personagem de "Dr. Stone". Ela é uma jovem aldeã com uma habilidade única de detectar a presença de água com seu "quirk" natural. Após a petrificação, Suika se junta a Senku e à equipe, oferecendo seu conhecimento e habilidades para ajudar na reconstrução da civilização. Sua determinação e bravura são essenciais para enfrentar os desafios e apoiar os esforços científicos.',
+            'Ryusui Nanami é um personagem de "Dr. Stone". Ele é um talentoso navegador e um experiente líder marítimo. Após a petrificação, Ryusui se une à equipe de Senku para explorar o mundo e buscar recursos necessários para a reconstrução da civilização. Sua habilidade em navegação e estratégia é crucial para a missão e para enfrentar os desafios do mar e da nova era.',
+            'Homura Momiji é uma personagem de "Dr. Stone". Ela é uma guerreira com habilidades de combate impressionantes e um forte senso de dever. Após a petrificação, Homura se junta a Senku para ajudar na reconstrução da civilização. Sua força e lealdade são vitais para enfrentar os desafios físicos e proteger a equipe enquanto eles trabalham para restaurar o progresso científico.',
+            'Hyoga é um personagem de "Dr. Stone". Ele é um antagonista com habilidades de combate excepcionais e uma determinação implacável. Após a petrificação, Hyoga se torna uma ameaça para Senku e sua equipe, buscando seus próprios objetivos. Sua força e estratégia são desafiadoras e representam um obstáculo significativo na luta para reconstruir a civilização e avançar na ciência.',
+        ],
+        "color_personagem": [ 
+            "rgba(50, 200, 50, 0.9) 0%, rgba(100, 255, 100, 0.9) 50%, rgba(50, 200, 50, 0.9) 100%",
+            "rgba(150, 80, 40, 0.9) 0%, rgba(200, 120, 60, 0.9) 50%, rgba(150, 80, 40, 0.9) 100%",
+            "rgba(30, 30, 30, 0.9) 0%, rgba(60, 60, 60, 0.9) 50%, rgba(30, 30, 30, 0.9) 100%",
+            "rgba(200, 160, 140, 0.9) 0%, rgba(220, 180, 160, 0.9) 50%, rgba(200, 160, 140, 0.9) 100%",
+            "rgba(200, 150, 50, 0.9) 0%, rgba(255, 200, 70, 0.9) 50%, rgba(200, 150, 50, 0.9) 100%",
+            "rgba(100, 150, 50, 0.9) 0%, rgba(150, 200, 70, 0.9) 50%, rgba(100, 150, 50, 0.9) 100%",
+            "rgba(100, 100, 200, 0.9) 0%, rgba(150, 150, 255, 0.9) 50%, rgba(100, 100, 200, 0.9) 100%",
+            "rgba(180, 200, 130, 0.9) 0%,rgba(132, 153, 78, 0.9) 25%, rgba(220, 240, 150, 0.9) 50%, rgba(180, 200, 130, 0.9) 100%",
+            "rgba(50, 150, 200, 0.9) 0%, rgba(100, 200, 255, 0.9) 50%, rgba(50, 150, 200, 0.9) 100%",
+            "rgba(200, 100, 100, 0.9) 0%, rgba(255, 150, 150, 0.9) 50%, rgba(200, 100, 100, 0.9) 100%",
+            "rgba(80, 80, 200, 0.9) 0%, rgba(120, 120, 255, 0.9) 50%, rgba(80, 80, 200, 0.9) 100%",
+        ],
+    },
     "Boku no Hero": {
         "nome_personagem": ['Izuku Midoriya', 'Katsuki Bakugo', 'Ochaco Uraraka', 'Shoto Todoroki', 'Tomura Shigaraki','Dabi','All Might'],
         "img_personagem": [
@@ -371,7 +452,7 @@ export const ArrayInfoPersonagens = {
             'Puck é um dos personagens encantadores de "Re: zero". Como espírito guardião de Emilia, ele é uma criatura mágica com uma aparência adorável e uma personalidade vivaz. Apesar de seu tamanho pequeno, Puck possui um poder imenso e uma lealdade inabalável. Sua relação com Emilia e seu papel na série são marcados por uma mistura de humor e profundidade emocional, revelando um caráter que combina proteção e afeto.'
         ],
         "color_personagem": [ 
-            "rgba(60, 60, 60, 0.9) 0%, rgba(100, 100, 100, 0.9) 50%, rgba(60, 60, 60, 0.9) 100%",
+            "rgba(0, 0, 0, 0.897), rgba(12, 0, 34, 0.897), rgba(39, 2, 109, 0.897), rgba(46, 2, 128, 0.897)",
             "rgba(220, 230, 240, 0.9) 0%, rgba(200, 210, 220, 0.9) 50%, rgba(220, 230, 240, 0.9) 100%",
             "rgba(200, 150, 150, 0.9) 0%, rgba(180, 130, 130, 0.9) 50%, rgba(200, 150, 150, 0.9) 100%",
             "rgba(130, 180, 255, 0.9) 0%, rgba(100, 150, 230, 0.9) 50%, rgba(130, 180, 255, 0.9) 100%",

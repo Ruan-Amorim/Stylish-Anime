@@ -187,18 +187,47 @@ function gerandoInfoAnime(anime) {
                 imagePersonagem.style.maxWidth = "80%";
             }
         } else if (anime == "Boku no Hero"){
-            imagePersonagem.style.margin = "5% 0";
-            imagePersonagem.style.height = "85%";
-            imagePersonagem.style.maxWidth = "60%";
-            imagePersonagem.style.top = "auto";
-            imagePersonagem.style.bottom = "0";
-            if (ArrayInfoPersonagens[anime].nome_personagem[x] == 'All Might') {
-                imagePersonagem.style.right = "-2.5%";
-                imagePersonagem.style.transform = "scaleX(-1)";
-            } else if ( ArrayInfoPersonagens[anime].nome_personagem[x] == 'Tomura Shigaraki') {
-                imagePersonagem.style.right = "-2.5%";
+            if (window.innerWidth >= 600) {
+                imagePersonagem.style.margin = "5% 0";
+                imagePersonagem.style.height = "85%";
+                imagePersonagem.style.maxWidth = "60%";
+                imagePersonagem.style.top = "auto";
+                imagePersonagem.style.bottom = "0";
             }
-        } else {
+            if (ArrayInfoPersonagens[anime].nome_personagem[x] == 'All Might') {
+                if (window.innerWidth >= 600) {
+                    imagePersonagem.style.right = "-2.5%";
+                }   
+                imagePersonagem.style.transform = "scaleX(-1)";
+            } else if (ArrayInfoPersonagens[anime].nome_personagem[x] == 'Tomura Shigaraki' ) {
+                if (window.innerWidth >= 600) {
+                    imagePersonagem.style.right = "-2.5%";
+                }
+            }
+        } else if (anime == "Dr. Stone") {
+            if (ArrayInfoPersonagens[anime].nome_personagem[x] == 'Tsukasa Shishio') {
+                imagePersonagem.style.margin = "0 0";
+            } else if (ArrayInfoPersonagens[anime].nome_personagem[x] == 'Kohaku') {
+                imagePersonagem.style.margin = "0 0";
+                imagePersonagem.style.transform = "scaleX(-1)";
+            } else {
+                imagePersonagem.style.margin = "0 7.5%";
+            }
+        } else if (anime == "Black Clover") {
+            if (ArrayInfoPersonagens[anime].nome_personagem[x] == 'Asta' || ArrayInfoPersonagens[anime].nome_personagem[x] == 'Magna swing' ) {
+                if (window.innerWidth >= 600) {
+                    imagePersonagem.style.height = "85%";
+                    imagePersonagem.style.margin = "0";
+                    imagePersonagem.style.top = "auto";
+                    imagePersonagem.style.bottom = "2.5%";
+                    imagePersonagem.style.maxWidth = "60%";
+                } else {
+                    imagePersonagem.style.maxWidth = "100%";
+                }
+            } else {
+                imagePersonagem.style.margin = "0 5%";
+            }
+        }else {
             
         }
 
