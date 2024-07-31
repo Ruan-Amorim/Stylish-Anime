@@ -1,5 +1,4 @@
 
-
 export const ArrayPreviewAnime = [
     {
         "nome": "Kimetsu No Yaiba",
@@ -319,6 +318,69 @@ export const ArrayInfoAnimes = {
 }
 
 export const ArrayInfoPersonagens = {
+    "Boku no Hero": {
+        "nome_personagem": ['Izuku Midoriya', 'Katsuki Bakugo', 'Ochaco Uraraka', 'Shoto Todoroki', 'Tomura Shigaraki','Dabi','All Might'],
+        "img_personagem": [
+            "midias/image/Boku no Hero/Midoriya.png",
+            "midias/image/Boku no Hero/Bakugo.png",
+            "midias/image/Boku no Hero/Uraraka.png",
+            "midias/image/Boku no Hero/Todoroki.webp",
+            "midias/image/Boku no Hero/Shigaraki.png",
+            "midias/image/Boku no Hero/Dabi.png",
+            "midias/image/Boku no Hero/All_Might.png",
+        ],
+        "texto_personagem": [
+            'Izuku Midoriya é o protagonista de "Boku no Hero Academia". Nascido sem um "quirk", ele é determinado a se tornar um herói após admirar All Might. Sua coragem e empatia são notáveis enquanto enfrenta desafios na U.A. High School. Midoriya luta para superar suas limitações e provar seu valor, mostrando um caráter que combina tenacidade e um forte senso de justiça. Sua jornada é marcada por crescimento pessoal e dedicação a proteger os outros.',
+            'Katsuki Bakugo é um dos principais personagens de "Boku no Hero Academia". Conhecido por seu temperamento explosivo e suas habilidades de "quirk" de explosão, ele tem um forte desejo de ser o número um. Embora pareça agressivo e competitivo, Bakugo também mostra uma determinação implacável e uma complexidade emocional. Seu desenvolvimento ao longo da série revela uma personalidade multifacetada e uma luta para equilibrar orgulho e responsabilidade.',
+            'Ochaco Uraraka é uma das personagens centrais de "Boku no Hero Academia". Ela possui o "quirk" de gravidade zero, permitindo-lhe levitar objetos e pessoas. Sua personalidade é marcada por um grande coração e um forte desejo de ajudar os outros. Uraraka se destaca pela sua dedicação e pelo desejo de se tornar uma heroína para apoiar sua família financeiramente. Sua jornada é uma combinação de crescimento pessoal e desejo de fazer o bem.',
+            'Shoto Todoroki é um dos protagonistas de "Boku no Hero Academia". Ele possui o "quirk" de manipulação de fogo e gelo, herdado de seus pais. Todoroki enfrenta conflitos internos e familiares, lutando para equilibrar seus poderes e encontrar sua própria identidade. Sua personalidade complexa e sua habilidade de combate são centrais para sua evolução na série, revelando um caráter que busca superar passados dolorosos e encontrar um propósito.',
+            'Tomura Shigaraki é o antagonista principal de "Boku no Hero Academia". Líder da Liga dos Vilões, ele possui um "quirk" devastador que pode desintegrar qualquer coisa que toque. Sua personalidade é marcada por um profundo ressentimento e desejo de caos, refletindo uma complexidade sombria e perturbadora. Shigaraki é um personagem que desafia a ordem estabelecida e representa uma ameaça significativa aos heróis.',
+            'Dabi é um dos antagonistas notáveis de "Boku no Hero Academia". Com o "quirk" de controle do fogo, ele é conhecido por sua aparência queimadura e sua personalidade fria e calculista. Dabi possui um passado sombrio e um desejo intenso de se vingar, revelando uma complexidade emocional e uma motivação profunda que o torna um inimigo formidável. Sua presença é marcante e representa uma força poderosa contra os heróis.',
+            'All Might é o icônico herói de "Boku no Hero Academia". Conhecido como o símbolo da paz, ele possui uma habilidade incrível de força e velocidade, sendo um mentor para Midoriya. Sua personalidade é marcada por uma grande força de vontade e uma dedicação inabalável à justiça. All Might é admirado por sua coragem e por seu papel fundamental na luta contra o mal, simbolizando a esperança e a inspiração para futuros heróis.',
+        ],
+        "color_personagem": [ 
+            "rgba(20, 120, 80, 0.9) 0%, rgba(40, 160, 100, 0.9) 50%, rgba(20, 120, 80, 0.9) 100%",
+            "rgba(255, 100, 50, 0.9) 0%, rgba(255, 150, 80, 0.9) 50%, rgba(255, 100, 50, 0.9) 100%",
+            "rgba(255, 180, 180, 0.9) 0%, rgba(255, 220, 220, 0.9) 50%, rgba(255, 180, 180, 0.9) 100%",
+            "rgba(0, 160, 200, 0.9) 0%, rgba(200, 0, 0, 0.9) 50%, rgba(0, 160, 200, 0.9) 100%",
+            "rgba(50, 50, 50, 0.9) 0%, rgba(100, 100, 100, 0.9) 50%, rgba(50, 50, 50, 0.9) 100%",
+            "rgba(0, 60, 100, 0.9) 0%, rgba(30, 90, 140, 0.9) 50%, rgba(0, 60, 100, 0.9) 100%",
+            "rgba(255, 220, 50, 0.9) 0%, rgba(255, 180, 0, 0.9) 50%, rgba(255, 220, 50, 0.9) 100%",
+        ],
+    },
+    "Re: Zero": {
+        "nome_personagem": ['Subaru Natsuki', 'Emilia', 'Ram', 'Rem', 'Echidna','Crusch Karsten','Roswaal L Mathers','Puck'],
+        "img_personagem": [
+            "midias/image/Re Zero/Subaru_Natsuki.png",
+            "midias/image/Re Zero/Emilia.png",
+            "midias/image/Re Zero/Ram.png",
+            "midias/image/Re Zero/Rem.png",
+            "midias/image/Re Zero/Echidna.png",
+            "midias/image/Re Zero/Crusch.png",
+            "midias/image/Re Zero/Roswaal.png",
+            "midias/image/Re Zero/Puck.png",
+        ],
+        "texto_personagem": [
+            'Subaru Natsuki, Transportado para um mundo de fantasia, ele possui o poder de retornar no tempo após a morte. Esse poder é tanto uma bênção quanto uma maldição, enfrentando desafios emocionais e físicos enquanto tenta proteger os amigos. Determinado e resiliente, Subaru revela uma natureza profunda enquanto busca equilibrar medos e responsabilidades, sendo fundamental na luta pela sobrevivência e entendimento do novo mundo.',
+            'Emilia é uma das figuras centrais de "Re: zero". Ela é uma meia-elfa com um coração puro e uma aparência angelical. Sua busca para se tornar a próxima rainha é cheia de desafios e conflitos, revelando uma personalidade forte e uma determinação inabalável. Apesar dos preconceitos e dificuldades que enfrenta, Emilia se destaca pela sua bondade e coragem, enquanto luta para proteger seus amigos e encontrar seu verdadeiro propósito no mundo.',
+            'Ram é uma das personagens intrigantes de "Re: zero". Como uma demônio-fera e empregada na mansão Roswaal, ela é conhecida por sua atitude fria e comportamento reservado. Apesar de sua aparência severa, Ram possui um senso de lealdade profundo e habilidades mágicas notáveis. Sua complexidade emocional é explorada ao longo da série, revelando uma personalidade que combina determinação e vulnerabilidade, enquanto ela lida com seu passado e suas relações.',
+            'Rem é uma das figuras marcantes de "Re: zero". Como irmã gêmea de Ram, ela trabalha na mansão Roswaal e é conhecida por sua força e dedicação. Rem possui uma personalidade carinhosa e protetora, sendo leal a Subaru e seus amigos. Sua habilidade como guerreira e sua profunda lealdade são destacadas ao longo da série, revelando um caráter que combina ternura com uma força inabalável e determinação.',
+            'Echidna é a fascinante bruxa da "Re: zero". Conhecida como a Bruxa da Vaidade, ela é uma figura enigmática e poderosa com grande conhecimento. Embora sua aparência seja atraente, sua verdadeira natureza é complexa e ambígua, revelando uma personalidade que mistura charme com manipulação. Echidna é crucial para a trama, oferecendo desafios e insights para Subaru enquanto explora temas de ambição e poder.',
+            'Crusch Karsten é uma personagem importante de "Re: zero". Ela é uma nobre e candidata ao trono com uma personalidade forte e liderança natural. Crusch é conhecida por sua coragem e habilidades de combate, bem como por seu compromisso em proteger seu território e aliados. Sua determinação e caráter robusto são centrais para suas ações na série, destacando sua capacidade de liderança e resiliência frente aos desafios.',
+            'Roswaal L Mathers é uma figura intrigante de "Re: zero". Ele é o misterioso e excêntrico lord da mansão onde Subaru e seus amigos ficam. Com uma personalidade que mistura charme com manipulação, Roswaal é um personagem fundamental que exerce grande influência sobre os eventos da série. Seu comportamento enigmático e suas intenções complexas são centrais para a trama, revelando um caráter multifacetado e intrigante.',
+            'Puck é um dos personagens encantadores de "Re: zero". Como espírito guardião de Emilia, ele é uma criatura mágica com uma aparência adorável e uma personalidade vivaz. Apesar de seu tamanho pequeno, Puck possui um poder imenso e uma lealdade inabalável. Sua relação com Emilia e seu papel na série são marcados por uma mistura de humor e profundidade emocional, revelando um caráter que combina proteção e afeto.'
+        ],
+        "color_personagem": [ 
+            "rgba(60, 60, 60, 0.9) 0%, rgba(100, 100, 100, 0.9) 50%, rgba(60, 60, 60, 0.9) 100%",
+            "rgba(220, 230, 240, 0.9) 0%, rgba(200, 210, 220, 0.9) 50%, rgba(220, 230, 240, 0.9) 100%",
+            "rgba(200, 150, 150, 0.9) 0%, rgba(180, 130, 130, 0.9) 50%, rgba(200, 150, 150, 0.9) 100%",
+            "rgba(130, 180, 255, 0.9) 0%, rgba(100, 150, 230, 0.9) 50%, rgba(130, 180, 255, 0.9) 100%",
+            "rgba(190, 180, 210, 0.9) 0%, rgba(170, 160, 190, 0.9) 50%, rgba(190, 180, 210, 0.9) 100%",
+            "rgba(180, 150, 100, 0.9) 0%, rgba(160, 130, 80, 0.9) 50%, rgba(180, 150, 100, 0.9) 100%",
+            "rgba(150, 100, 200, 0.9) 0%, rgba(130, 80, 180, 0.9) 50%, rgba(150, 100, 200, 0.9) 100%",
+            "rgba(200, 220, 250, 0.9) 0%, rgba(180, 200, 240, 0.9) 50%, rgba(200, 220, 250, 0.9) 100%"
+        ],
+    },
     "Jujutsu Kaisen": {
         "nome_personagem": ['Yuji Itadori','Megumi Fushiguro','Nobara Kugisaki','Yuta','Gojo'],
         "img_personagem": [

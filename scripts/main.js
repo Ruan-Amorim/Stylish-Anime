@@ -180,6 +180,24 @@ function gerandoInfoAnime(anime) {
             }
         } else if (anime == "Mushoku Tensei"){
             imagePersonagem.style.margin = "0 0";
+        } else if (anime == "Re: Zero"){
+            imagePersonagem.style.margin = "0 7.5%";
+            if (ArrayInfoPersonagens[anime].nome_personagem[x] == 'Subaru Natsuki' || ArrayInfoPersonagens[anime].nome_personagem[x] == 'Roswaal L Mathers' || ArrayInfoPersonagens[anime].nome_personagem[x] == 'Crusch Karsten') {
+                imagePersonagem.style.margin = "0 0";
+                imagePersonagem.style.maxWidth = "80%";
+            }
+        } else if (anime == "Boku no Hero"){
+            imagePersonagem.style.margin = "5% 0";
+            imagePersonagem.style.height = "85%";
+            imagePersonagem.style.maxWidth = "60%";
+            imagePersonagem.style.top = "auto";
+            imagePersonagem.style.bottom = "0";
+            if (ArrayInfoPersonagens[anime].nome_personagem[x] == 'All Might') {
+                imagePersonagem.style.right = "-2.5%";
+                imagePersonagem.style.transform = "scaleX(-1)";
+            } else if ( ArrayInfoPersonagens[anime].nome_personagem[x] == 'Tomura Shigaraki') {
+                imagePersonagem.style.right = "-2.5%";
+            }
         } else {
             
         }
