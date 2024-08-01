@@ -6,6 +6,10 @@ var ulContainerPlayerAnimes = window.document.getElementById("ulContainerPlayerA
 var bloco1 = window.document.getElementById("bloco1");
 
 // PEGANDO OBJETOS HTML DA SECTION INFORMAÇÃO DE ANIMES
+
+var pesquisaAnime = window.document.getElementById("pesquisaAnime");
+var pesquisaAnimeCl = window.document.getElementById("pesquisaAnimeCl");
+
 var imagem_capa_infoAnimes = window.document.getElementById("imgCapaGride01");
 var nome_imagem_capa_infoAnimes = window.document.getElementById("nomeImg");
 var nome_anime_infoAnimes = window.document.getElementById("nomeAnimeInfoAnimes");
@@ -241,6 +245,28 @@ function gerandoInfoAnime(anime) {
         containerPrincipal.appendChild(container);
     }
 }
+function gerandoanimePesquisaRapida() {
+    let container = window.document.getElementById("animesPesquisa");
+    for (let x = 0; x < ArrayPreviewAnime.length; x++) {
+        let anime = document.createElement("option");
+        anime.value = ArrayPreviewAnime[x].nome;
+        anime.setAttribute('onclick', `updateInfoAnime(${ArrayPreviewAnime[x].nome})`); 
+        
+        container.appendChild(anime);
+    }
+}
+
+window.addEventListener('keydown', function verificaçaoAnime(event) {
+    switch (event.key) {
+        case 'Enter':
+            updateInfoAnime(pesquisaAnime.value);
+            updateInfoAnime(pesquisaAnimeCl.value);
+            break;
+        default:
+            break;
+    }
+});
 
 loading();
+gerandoanimePesquisaRapida();
 updateInfoAnime(ArrayPreviewAnime[0].nome);
