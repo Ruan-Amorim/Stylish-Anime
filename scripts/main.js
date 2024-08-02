@@ -1,5 +1,6 @@
 
 import {ArrayPreviewAnime, ArrayInfoAnimes, ArrayInfoPersonagens} from "./dados.js";
+import { CondicaoPersonagen, CondicaoPesquisa } from "./Helpers/index.js";
 
 
 var ulContainerPlayerAnimes = window.document.getElementById("ulContainerPlayerAnimes");
@@ -157,83 +158,7 @@ function gerandoInfoAnime(anime) {
         caixaTextoInfoAnime.appendChild(textoInfoPersonagem);
         
 
-        // Condiçãoes para ajustes conforme o anime
-
-        if (anime == "Kimetsu No Yaiba") {
-            imagePersonagem.style.margin = "0 0";
-            if (ArrayInfoPersonagens[anime].nome_personagem[x] == 'Nezuko Kamado') {
-                if (window.innerWidth <= 480) {
-                    imagePersonagem.style.maxWidth = "100%";
-                    imagePersonagem.style.right = "-15%";
-                } else {
-                    imagePersonagem.style.maxWidth = "80%";
-                    imagePersonagem.style.right = "-15%";
-                }
-            } else if (ArrayInfoPersonagens[anime].nome_personagem[x] == 'Tanjiro Kamado') {
-                if (window.innerWidth <= 480) {
-                    imagePersonagem.style.right = "-5%";
-                } else {
-                    imagePersonagem.style.right = "-3%";
-                }
-            }
-        } else if (anime == "Konosuba") {
-            if (ArrayInfoPersonagens[anime].img_personagem[x] != "midias/image/Konosuba/Kazuma.png") {
-                imagePersonagem.style.margin = "0 0";
-            } else if (ArrayInfoPersonagens[anime].nome_personagem[x] == 'Megumin') {
-                imagePersonagem.style.maxWidth = "100%";
-            }
-        } else if (anime == "Mushoku Tensei"){
-            imagePersonagem.style.margin = "0 0";
-        } else if (anime == "Re: Zero"){
-            imagePersonagem.style.margin = "0 7.5%";
-            if (ArrayInfoPersonagens[anime].nome_personagem[x] == 'Subaru Natsuki' || ArrayInfoPersonagens[anime].nome_personagem[x] == 'Roswaal L Mathers' || ArrayInfoPersonagens[anime].nome_personagem[x] == 'Crusch Karsten') {
-                imagePersonagem.style.margin = "0 0";
-                imagePersonagem.style.maxWidth = "80%";
-            }
-        } else if (anime == "Boku no Hero"){
-            if (window.innerWidth >= 600) {
-                imagePersonagem.style.margin = "5% 0";
-                imagePersonagem.style.height = "85%";
-                imagePersonagem.style.maxWidth = "60%";
-                imagePersonagem.style.top = "auto";
-                imagePersonagem.style.bottom = "0";
-            }
-            if (ArrayInfoPersonagens[anime].nome_personagem[x] == 'All Might') {
-                if (window.innerWidth >= 600) {
-                    imagePersonagem.style.right = "-2.5%";
-                }   
-                imagePersonagem.style.transform = "scaleX(-1)";
-            } else if (ArrayInfoPersonagens[anime].nome_personagem[x] == 'Tomura Shigaraki' ) {
-                if (window.innerWidth >= 600) {
-                    imagePersonagem.style.right = "-2.5%";
-                }
-            }
-        } else if (anime == "Dr. Stone") {
-            if (ArrayInfoPersonagens[anime].nome_personagem[x] == 'Tsukasa Shishio') {
-                imagePersonagem.style.margin = "0 0";
-            } else if (ArrayInfoPersonagens[anime].nome_personagem[x] == 'Kohaku') {
-                imagePersonagem.style.margin = "0 0";
-                imagePersonagem.style.transform = "scaleX(-1)";
-            } else {
-                imagePersonagem.style.margin = "0 7.5%";
-            }
-        } else if (anime == "Black Clover") {
-            if (ArrayInfoPersonagens[anime].nome_personagem[x] == 'Asta' || ArrayInfoPersonagens[anime].nome_personagem[x] == 'Magna swing' ) {
-                if (window.innerWidth >= 600) {
-                    imagePersonagem.style.height = "85%";
-                    imagePersonagem.style.margin = "0";
-                    imagePersonagem.style.top = "auto";
-                    imagePersonagem.style.bottom = "2.5%";
-                    imagePersonagem.style.maxWidth = "60%";
-                } else {
-                    imagePersonagem.style.maxWidth = "100%";
-                }
-            } else {
-                imagePersonagem.style.margin = "0 5%";
-            }
-        }else {
-            
-        }
+        CondicaoPersonagen(anime, x, imagePersonagem);// Condiçãoes e ajustes conforme o Personagem ou anime
 
         cartao.appendChild(caixaTextoInfoAnime);
         cartao.appendChild(imagePersonagem);
@@ -246,21 +171,22 @@ function gerandoInfoAnime(anime) {
     }
 }
 function gerandoanimePesquisaRapida() {
-    let container = window.document.getElementById("animesPesquisa");
+    let containerPC = window.document.getElementById("animesPesquisa");
+    let containerCL = window.document.getElementById("pesquisaAnimeCl");
+
     for (let x = 0; x < ArrayPreviewAnime.length; x++) {
-        let anime = document.createElement("option");
-        anime.value = ArrayPreviewAnime[x].nome;
-        anime.setAttribute('onclick', `updateInfoAnime(${ArrayPreviewAnime[x].nome})`); 
-        
-        container.appendChild(anime);
+        CondicaoPesquisa(ArrayPreviewAnime[x].nome, containerCL, containerPC);// Condiçãoes para diferênciar celular de pc
     }
 }
 
 window.addEventListener('keydown', function verificaçaoAnime(event) {
     switch (event.key) {
         case 'Enter':
-            updateInfoAnime(pesquisaAnime.value);
-            updateInfoAnime(pesquisaAnimeCl.value);
+            if (window.innerWidth <= 600) {
+                updateInfoAnime(pesquisaAnimeCl.value);
+            } else {
+                updateInfoAnime(pesquisaAnime.value);
+            }
             break;
         default:
             break;
