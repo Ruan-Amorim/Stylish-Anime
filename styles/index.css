@@ -74,6 +74,7 @@ html, body {
     background: linear-gradient(60deg, #6037F5, #7D61E0);
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory; /* Travar a rolagem verticalmente */
+    --navbar-color: #6037F5;
 }
 section {
     width: 100vw;
