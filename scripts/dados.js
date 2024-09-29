@@ -75,8 +75,8 @@ export const ArrayPreviewAnime = [
     {
         "nome": "Kenka Dokugaku",
         "sinopse": "O estudante magrelo do ensino médio, Hobin Yu, é o último cara que você esperaria estrelar em um canal do NewTube, que gira em torno de lutas. Depois de seguir alguns conselhos de um misterioso canal no NewTube, Hobin logo está nocauteando caras mais fortes do que ele e arrecadando mais dinheiro do que jamais poderia ter sonhado.",
-        "imagemPC": "https://pbs.twimg.com/media/GK45V32W0AEY29w.jpg",
-        "imagemCL": "https://pbs.twimg.com/media/GK45V32W0AEY29w.jpg",
+        "imagemPC": "https://www.animag.net/wp-content/uploads/2024/05/Kenka-Dokugaku-Anime-Key-Visual-e1707578774548.webp",
+        "imagemCL": "https://www.animag.net/wp-content/uploads/2024/05/Kenka-Dokugaku-Anime-Key-Visual-e1707578774548.webp",
     },
 ];
 

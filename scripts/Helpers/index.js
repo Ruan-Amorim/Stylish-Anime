@@ -22,6 +22,14 @@ export const CondicaoPersonagen = (anime, x, imagePersonagem) => {
                 } else {
                     imagePersonagem.style.right = "-3%";
                 }
+            } else if (nomePersonLista == 'Kyojuro Rengoku') {
+                if (window.innerWidth <= 480) {
+                    imagePersonagem.style.maxWidth = "100%";
+                } else {
+                    imagePersonagem.style.margin = "2.5% 0";
+                    imagePersonagem.style.maxWidth = "55%";
+                    imagePersonagem.style.maxHeight = "90%";
+                }
             }
             break;
         case "Konosuba": 
@@ -37,8 +45,8 @@ export const CondicaoPersonagen = (anime, x, imagePersonagem) => {
         case "Re: Zero":
             imagePersonagem.style.margin = "0 7.5%";
             if (nomePersonLista == 'Subaru Natsuki' || nomePersonLista == 'Roswaal L Mathers' || nomePersonLista == 'Crusch Karsten') {
-                imagePersonagem.style.margin = "0 0";
-                imagePersonagem.style.maxWidth = "80%";
+                imagePersonagem.style.margin = "5% 0";
+                imagePersonagem.style.maxHeight = "80%";
             }
             break;
         case "Boku no Hero":

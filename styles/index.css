@@ -134,8 +134,8 @@ li {
 }
 #ulContainerPlayerAnimes > li{
     position: relative;
-    width: 510px;
-    height: 95%;
+    width: 21vw;
+    height: 50dvh;
     margin: 0 23px;
     padding: 10px;
     bottom: 0;
