@@ -193,7 +193,7 @@ window.addEventListener('keydown', function verificaçaoAnime(event) {
     }
 });
 
-// ANIMAÇÕES USANDO 
+// ANIMAÇÕES USANDO IntersectionObserver
 
 // Cria um observador para monitorar quando os elementos entram na tela
 function startAnimation() {

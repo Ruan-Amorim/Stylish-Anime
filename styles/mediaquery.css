@@ -3,7 +3,7 @@
 
 @media screen and (min-width: 300px) and (max-width: 470px) {
     h1,h2,h3,h4,h5,h6 {
-        font-size: 1.5em;
+        font-size: 3dvh;
     }
     section {
         scroll-snap-align: none; /* Travar no início de cada seção */
@@ -13,9 +13,6 @@
         height: calc(100vh - 60px);
         border-radius: 0 0 100% 0;
     }
-    #ulContainerPlayerAnimes > li > h2 {
-        font-size: 1em;
-    }
     #ulContainerPlayerAnimes{
         position: absolute;
         margin-left: 0;
@@ -23,16 +20,18 @@
     }
     #ulContainerPlayerAnimes > li {
         width: 280px;
-        height: 85%;
-        margin: 30px;
+        width: 62vw;
+        height: 88%;
+        margin: 30px 10vw;
         overflow-y: scroll;
         transform: translateX(45px) translateY(5%);
     }
     #ulContainerPlayerAnimes > li > h2 {
+        font-size: 3dvh;
         margin-top: 20px;
     }
     #ulContainerPlayerAnimes > li > p {
-        font-size: 0.6em;
+        font-size: 2.1dvh;
     }
 
     /* SECTION INFORMAÇÃO DE ANIMES */
@@ -44,6 +43,9 @@
         padding-top: 10px;
         background: whitesmoke;
         border-radius: 20px;
+        animation: opacity 1ms ease-in-out;
+        animation-timeline: view();
+        animation-range: cover 0% cover 15%;
     }
     #blocoInfoAnime {
         position: static;
@@ -178,10 +180,10 @@
     #blocosDoAside02 > a {
         position: relative;
         display: inline-block;
-        width: 70%;
-        height: 70%;
-        margin: 5px;
-        font-size: 1.2em;
+        width: 50%;
+        height: 50%;
+        margin: 2.5px;
+        font-size: 2.1dvh;
         border: 1px outset #583AC5;
     }
     #blocosDoAside02 > a > p {
@@ -248,7 +250,7 @@
     }
     #textoProtagonista > p {
         margin: 5px 10px;
-        font-size: 1em;
+        font-size: 2.1dvh;
         color: black;
         text-align: left;
     }
@@ -264,6 +266,7 @@
     }
 
     /* BLOCO INFORMAÇÃO DE PERSONAGENS */
+    
     .tituloInfoPersonagem {
         width: 95%;
         color: black;
@@ -276,7 +279,7 @@
         width: 95%;
         margin: auto;
         text-align: center;
-        font-size: 1.1em;
+        font-size: 2.1dvh;
         z-index: 100;
     }
     .circle {
