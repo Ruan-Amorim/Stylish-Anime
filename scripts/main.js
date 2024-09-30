@@ -200,7 +200,7 @@ function startAnimation() {
     if (window.innerWidth < 500) {
         document.getElementById("blocoInfoAnime").style.display = "block";
         document.getElementById("dadoAnimeRandom").style.display = "block";
-        document.getElementById("caixaDoProtagonista").style.display = "flex";
+        document.getElementById("caixaDoProtagonista").style.display = "inline-block";
         document.getElementById("grade01").style.display = "block";
         document.getElementById("grade02").style.display = "block";
     } else {
