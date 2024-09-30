@@ -1,6 +1,6 @@
 
 import {ArrayPreviewAnime, ArrayInfoAnimes, ArrayInfoPersonagens} from "./dados.js";
-import { CondicaoPersonagen, CondicaoPesquisa } from "./Helpers/index.js";
+import { CondicaoPersonagen, CondicaoPesquisa, observerInfoAnime } from "./Helpers/index.js";
 
 
 var ulContainerPlayerAnimes = window.document.getElementById("ulContainerPlayerAnimes");
@@ -196,31 +196,21 @@ window.addEventListener('keydown', function verificaçaoAnime(event) {
 // ANIMAÇÕES USANDO 
 
 // Cria um observador para monitorar quando os elementos entram na tela
-const observerInfoAnime = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
+function startAnimation() {
+    if (window.innerWidth < 500) {
         document.getElementById("blocoInfoAnime").style.display = "flex";
         document.getElementById("pesquisaAnime").style.display = "block";
         document.getElementById("dadoAnimeRandom").style.display = "block";
         document.getElementById("caixaDoProtagonista").style.display = "flex";
         document.getElementById("grade01").style.display = "block";
         document.getElementById("grade02").style.display = "block";
-      } else {
-        document.getElementById("blocoInfoAnime").style.display = "none";
-        document.getElementById("pesquisaAnime").style.display = "none";
-        document.getElementById("dadoAnimeRandom").style.display = "none";
-        document.getElementById("caixaDoProtagonista").style.display = "none";
-        document.getElementById("grade01").style.display = "none";
-        document.getElementById("grade02").style.display = "none";
-      }
-    });
-  }, {
-    threshold: 0.5, // O elemento deve estar 50% visível para acionar
-    rootMargin: '0px 0px -10% 0px' // Margem ajustada para detecção mais precisa
-  });
-  observerInfoAnime.observe(document.getElementById("containerBlocoInfoAnime"));
+    } else {
+        observerInfoAnime.observe(document.getElementById("containerBlocoInfoAnime"));
+    }
+}
   
 
 loading();
+startAnimation()
 gerandoanimePesquisaRapida();
 updateInfoAnime(ArrayPreviewAnime[0].nome);
