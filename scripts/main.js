@@ -198,8 +198,7 @@ window.addEventListener('keydown', function verificaçaoAnime(event) {
 // Cria um observador para monitorar quando os elementos entram na tela
 function startAnimation() {
     if (window.innerWidth < 500) {
-        document.getElementById("blocoInfoAnime").style.display = "flex";
-        document.getElementById("pesquisaAnime").style.display = "block";
+        document.getElementById("blocoInfoAnime").style.display = "block";
         document.getElementById("dadoAnimeRandom").style.display = "block";
         document.getElementById("caixaDoProtagonista").style.display = "flex";
         document.getElementById("grade01").style.display = "block";
