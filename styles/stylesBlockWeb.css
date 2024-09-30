@@ -1,4 +1,44 @@
 
+@keyframes appear {
+    from {
+        scale: 0;
+        opacity: 0;
+    }
+    to {
+        scale: 1;
+        opacity: 1;
+    }
+} 
+@keyframes appearDown {
+    from {
+        opacity: 0;
+        transform: translate(-50%,100vh);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(-50%,-50%);
+    }
+}
+@keyframes appearRight {
+    from {
+        opacity: 0;
+        transform: translate(100vh,-50%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(-50%,-50%);
+    }
+}
+@keyframes appearleft {
+    from {
+        opacity: 0;
+        transform: translate(-50%, 50%);
+    }
+    to {
+        opacity: 1;
+        transform: translate(0,-50%);
+    }
+}
 /* BLOCO 02 */
 /* #FF2291, #D73E8C, #D22C7A */
 #bloco2{
@@ -167,7 +207,7 @@
 }
 #blocoInfoAnime {
     position: absolute;
-    display: flex;
+    display: none;
     width: 80%;
     height: 90%;
     padding: 20px 10px;
@@ -178,6 +218,7 @@
     background: whitesmoke;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.555);
     border-radius: 10px;
+    animation: appearDown 0.5s ease-in-out;
 }
 #pesquisaAnimeCl {
     display: none;
@@ -198,6 +239,7 @@
     transform: translateY(-50%);
     text-align: center;
     align-items: center;
+    animation: appearleft 0.8s ease-in-out;
 }
 #imgCapaGride01 {
     position: relative;
@@ -242,6 +284,7 @@
 }
 #pesquisaAnime{
     position: absolute;
+    display: none;
     width: 50%;
     padding: 0.4vw;
     top: 1%;
@@ -251,6 +294,7 @@
     font-family: 'Times New Roman', Times, serif;
     border-radius: 30px;
     z-index: 10000;
+    animation: appearDown 0.5s ease-in-out;
 }
 #pesquisaAnime:focus {
     border-color: #583AC5;
@@ -258,6 +302,7 @@
 }
 #grade02{
     position: absolute;
+    display: none;
     width: 68%;
     height: 55%;
     margin: 0 5% 0 5%;
@@ -267,6 +312,7 @@
     transform: translateY(-11%);
     text-align: center;
     align-items: center;
+    animation: appearRight 0.8s ease-in-out;
 }
 
 #caixaPrincialTexto {
@@ -387,11 +433,12 @@
 
 #caixaDoProtagonista {
     position: relative;
-    display: flex;
+    display: none;
     width: 100%;
     height: 68%;
     text-align: center;
     align-items: center;
+    animation: appearRight 0.8s ease-in-out;
 }
 #caixaDoProtagonista > div {
     display: inline-block;
@@ -454,7 +501,7 @@
     box-shadow: 0 0 10px black;
     border-radius: 50%;
     z-index: 1000;
-    
+    animation: appearDown 0.6s ease-in-out;
     transition: 0.4s;
 }
 #dadoAnimeRandom:hover {
@@ -462,6 +509,7 @@
     background: linear-gradient(60deg, #6037F5, #7D61E0);
     transition: 0.4s;
 }
+
 /* BLOCO INFORMAÇÃO DE PERSONAGENS */
 #containerTwo {
     display: flex;
@@ -489,6 +537,8 @@
     background: whitesmoke;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.555);
     border-radius: 10px;
+    animation: appear 1s ease-in-out;
+    animation-range: cover 0% cover 50%;
     overflow: hidden;
 }
 .tituloInfoPersonagem {
