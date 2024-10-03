@@ -1,4 +1,5 @@
 import { ArrayInfoPersonagens } from "../dados.js";
+import { numberPersonagens } from "../main.js";
 
 
 export const CondicaoPersonagen = (anime, x, imagePersonagem) => {
@@ -115,21 +116,28 @@ export const CondicaoPesquisa = (nomeAnime, ContainerCL, ContainerPC) => {
 // Esta função verifica se um objeto especifico ou varios objetos, neste caso em especifico esta observando se um objeto esta visivel no centro da tela e depois execultando uma ação para fazer uma animação.
 export const observerInfoAnime = new IntersectionObserver(entries => {
     entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        document.getElementById("blocoInfoAnime").style.display = "flex";
-        document.getElementById("pesquisaAnime").style.display = "block";
-        document.getElementById("dadoAnimeRandom").style.display = "block";
-        document.getElementById("caixaDoProtagonista").style.display = "flex";
-        document.getElementById("grade01").style.display = "block";
-        document.getElementById("grade02").style.display = "block";
-      } else {
-        document.getElementById("blocoInfoAnime").style.display = "none";
-        document.getElementById("pesquisaAnime").style.display = "none";
-        document.getElementById("dadoAnimeRandom").style.display = "none";
-        document.getElementById("caixaDoProtagonista").style.display = "none";
-        document.getElementById("grade01").style.display = "none";
-        document.getElementById("grade02").style.display = "none";
-      }
+        switch (entry.target.id) {
+            case "containerBlocoInfoAnime":
+                if (entry.isIntersecting) {
+                    document.getElementById("blocoInfoAnime").style.display = "flex";
+                    document.getElementById("pesquisaAnime").style.display = "block";
+                    document.getElementById("dadoAnimeRandom").style.display = "block";
+                    document.getElementById("caixaDoProtagonista").style.display = "flex";
+                    document.getElementById("grade01").style.display = "block";
+                    document.getElementById("grade02").style.display = "block";
+                  } else {
+                    document.getElementById("blocoInfoAnime").style.display = "none";
+                    document.getElementById("pesquisaAnime").style.display = "none";
+                    document.getElementById("dadoAnimeRandom").style.display = "none";
+                    document.getElementById("caixaDoProtagonista").style.display = "none";
+                    document.getElementById("grade01").style.display = "none";
+                    document.getElementById("grade02").style.display = "none";
+                  }
+                break;
+            default:
+                break;
+        }
+      
     });
   }, {
     threshold: 0.5, // O elemento deve estar 50% visível para acionar

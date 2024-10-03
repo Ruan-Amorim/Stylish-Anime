@@ -107,13 +107,39 @@ window.infoAnimeRandom = function infoAnimeRandom() {
     }
 }
 //  GERANDO E FAZENDO O UPDATE NO BLOCO DE INFORMAÇÃO DE ANIMES
-
+export var numberPersonagens = 0;
 function gerandoInfoAnime(anime) {
 
     var containerPrincipal = window.document.getElementById("containerTwo");
     containerPrincipal.innerHTML = '';
+    let arrowLeft = document.createElement("i");
+    arrowLeft.id = "arrowLeft";
+    arrowLeft.className = "fas fa-arrow-circle-left fa-xs";
+    arrowLeft.addEventListener('click', () => { 
+        containerPrincipal.scrollBy({
+            top: 0,
+            left: -window.innerWidth,
+            behavior: "smooth",
+        });
+     });
+    let arrowRight = document.createElement("i");
+    arrowRight.id = "arrowRight";
+    arrowRight.className = "fas fa-arrow-circle-right fa-xs";
+    arrowRight.addEventListener('click', () => {
+        containerPrincipal.scrollBy({
+            top: 0,
+            left: window.innerWidth,
+            behavior: "smooth",
+        });
+     });
+    
+    containerPrincipal.appendChild(arrowLeft);
+    containerPrincipal.appendChild(arrowRight);
+
+    numberPersonagens = 0;
 
     for (let x = 0; x < ArrayInfoPersonagens[anime].nome_personagem.length; x++) {
+        numberPersonagens += 1;
         let container = document.createElement("section");
         container.className = `containerInfoPersonagens`;
 
@@ -208,8 +234,7 @@ function startAnimation() {
     }
 }
   
-
 loading();
-startAnimation()
+startAnimation();
 gerandoanimePesquisaRapida();
 updateInfoAnime(ArrayPreviewAnime[0].nome);

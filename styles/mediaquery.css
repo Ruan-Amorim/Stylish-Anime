@@ -313,6 +313,18 @@
         scale: 0.9;
         z-index: 2;
     }
+    #arrowRight {
+        width: 9vw;
+        height: 9vw;
+        top: calc(103.5% - 9%);
+        left: calc(55vw);
+    }
+    #arrowLeft {
+        width: 9vw;
+        height: 9vw;
+        top: calc(103.5% - 9%);
+        left: calc(34%);
+    }
 }
 
 @media screen and (min-width: 471px) and (max-width: 599px) {
@@ -634,6 +646,14 @@
         background-position: center;
         scale: 0.9;
         z-index: 2;
+    }
+    #arrowLeft {
+        top: calc(50% - 6%);
+        left: 5vw;
+    }
+    #arrowRight {
+        top: calc(50% - 6%);
+        left: calc(95vw - 6%);
     }
 }
 @media screen and (min-width: 801px) and (max-width: 999px) {
