@@ -71,10 +71,14 @@ html, body {
     height: 100vh;
     overflow-x: hidden;
     transition: 0.5s ease-in-out;
-    background: #6037F5;
+    background: linear-gradient(60deg, #6037F5, #7D61E0);
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory; /* Travar a rolagem verticalmente */
     --navbar-color: #6037F5;
+}
+
+html {
+    background: #7D61E0;
 }
 section {
     width: 100vw;
